@@ -17,12 +17,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.util.*;
 
-/**
- * A class to demonstrate the functionality of the library.
- *
- * @author John Didion <jdidion@didion.net>
- * @author <a rel="author" href="http://autayeu.com/">Aliaksandr Autayeu</a>
- */
+
 public class Test {
 
     private static final String USAGE = "Usage: Examples [properties file]";
@@ -48,6 +43,8 @@ public class Test {
         	test.promptForInput();
         	test.convertSentenceToArray();
         	test.createWordSets(dictionary);
+        	test.computeSimilarityScore();
+        	test.printWordSets();
             //new Test(dictionary).go();
         	//test.go();
         }
@@ -66,6 +63,7 @@ public class Test {
     private List<String> sent1List;
     private List<String> sent2List;
     private ArrayList<WordSet> wordSets = new ArrayList<WordSet>();
+    private boolean DEBUG = false;
     
     
     //WordSet set1 = new WordSet("boy","girl");
@@ -129,11 +127,52 @@ public class Test {
     			}
     		}
     	}
-    	
+    }
+    
+    public void printWordSets()
+    {
     	// print out the results
     	for(WordSet _wordSet : wordSets)
     	{
     		System.out.println(_wordSet.toString());
+    	}
+    }
+    
+    public void computeSimilarityScore()
+    {
+    	for(WordSet _wordSet : wordSets)
+    	{
+    		// compute f(l)
+    		double f_l = Math.pow(2.17, (-1)*0.2*_wordSet.Length);
+    		
+    		// compute f(h)
+    		double heightTerm1 = Math.pow(2.71828, 0.45*_wordSet.Height);
+    		double heightTerm2 = Math.pow(2.71828, ( (-1)*0.45*_wordSet.Height ) );
+    		
+    		//double answer = (Math.pow(2.71828, 0.45*_wordSet.Height) - Math.pow(2.71828, ( (-1)*0.45*_wordSet.Height ) ))/(Math.pow(2.71828, 0.45*_wordSet.Height) + Math.pow(2.71828, ( (-1)*0.45*_wordSet.Height ) ));
+    	
+    		/*
+    		System.out.println("ANSWER: " +  answer);
+    		System.out.println("Height: " + _wordSet.Height);
+    		System.out.println("HeightTerm1----------------------------------> " + heightTerm1);
+    		System.out.println("HeightTerm2----------------------------------> " + heightTerm2);
+    		*/
+    		
+    		double f_h = 0;
+    		
+    		if(heightTerm2 != 0)
+    		{
+    			f_h = (heightTerm1 - heightTerm2)/(heightTerm1 + heightTerm2);
+    		
+    			_wordSet.Score = f_l*f_h;
+    		}
+    		else
+    		{
+    			_wordSet.Score = 0;
+    		}
+    		
+    		System.out.println("f(l)=" + f_l + " f(h)=" + f_h);
+    		
     	}
     }
     
@@ -163,27 +202,44 @@ public class Test {
         // Try to find a relationship between the first sense of <var>start</var> and the first sense of <var>end</var>
         RelationshipList list = RelationshipFinder.findRelationships(start.getSenses().get(0), end.getSenses().get(0), PointerType.HYPERNYM);
         System.out.println("Hypernym relationship between \"" + start.getLemma() + "\" and \"" + end.getLemma() + "\":");
+        
+        long min = 1000000000;
+        
         for (Object aList : list) {
             ((Relationship) aList).getNodeList().print();
             Iterator itr = ((Relationship) aList).getNodeList().iterator();
             
+            //System.out.println("THE DEPTH IS: " + ((Relationship) aList).getDepth());
             
+            min = 1000000000;
             while(itr.hasNext())
             {
             	String [] str = itr.next().toString().split("\\[");
             	int len = str[3].length();
             	
             	 
-            	System.out.println("here it is -------------->: " + str[3].substring(8,len-2));
+            	if(DEBUG) {System.out.println("here it is -------------->: " + str[3].substring(8,len-2));}
+            	
+            	if(Long.parseLong(str[3].substring(8,len-2)) < min)
+            	{
+            		min = Long.parseLong(str[3].substring(8,len-2));
+            	}
             }
            
+            if(DEBUG) {System.out.println("-----------------------------------> MINIMUM: "+min);}
         }
         
-        // set the common parent index THIS IS WRONG FOR NOW
+        // set the common parent index THIS IS WRONG
         //obj.Height = ((AsymmetricRelationship) list.get(0)).getCommonParentIndex();
-        obj.Length = list.get(0).getDepth();
         
-      //System.out.println("Height: " + obj.Height);
+        obj.Height = ((AsymmetricRelationship) list.get(0)).getDepth();
+        		
+        //System.out.println("THE DEPTH IS: " + ((Relationship) aList).getDepth());
+        
+        //obj.Height= min*1.0;
+        obj.Length = list.get(0).getDepth()*1.0;
+        
+        System.out.println("Height of Ancestor: " + obj.Height);
         System.out.println("Length: " + obj.Length);
         
         /*
@@ -233,10 +289,13 @@ class WordSet{
 	public String Word2;
 	
 	// the depth of the most recent common ancestor
-	public int Height;
+	public double Height;
 	
 	// the length from Word1 to Word2
-	public int Length;
+	public double Length;
+	
+	// the score computed from f(l)*f(h)
+	public double Score;
 	
 	public WordSet(String w1, String w2)
 	{
@@ -246,7 +305,7 @@ class WordSet{
 	
 	public String toString()
 	{
-		return "Word 1: " + Word1 + " Word 2: " + Word2 + " Height: " + Height + " Length: " + Length;
+		return "Word 1: " + Word1 + " Word 2: " + Word2 + " Height: " + Height + " Length: " + Length + " SCORE: " + Score;
 	}
 	
 }
