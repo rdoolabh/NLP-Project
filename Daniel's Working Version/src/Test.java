@@ -15,10 +15,7 @@ import net.sf.extjwnl.dictionary.Dictionary;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.*;
 
 /**
  * A class to demonstrate the functionality of the library.
@@ -34,7 +31,7 @@ public class Test {
     )));
 
     public static void main(String[] args) throws FileNotFoundException, JWNLException, CloneNotSupportedException {
-        Dictionary dictionary = null;
+    	 //Dictionary dictionary = null;
         if (args.length != 1) {
             dictionary = Dictionary.getDefaultResourceInstance();
         } else {
@@ -47,31 +44,112 @@ public class Test {
         }
 
         if (null != dictionary) {
-            new Test(dictionary).go();
+        	Test test = new Test();
+        	test.promptForInput();
+        	test.convertSentenceToArray();
+        	test.createWordSets(dictionary);
+            //new Test(dictionary).go();
+        	//test.go();
         }
     }
 
     private IndexWord ACCOMPLISH;
-    private IndexWord WORD1;
-    private IndexWord WORD2;
+    //private IndexWord WORD1;
+    //private IndexWord WORD2;
     private IndexWord FUNNY;
     private IndexWord DROLL;
     private final static String MORPH_PHRASE = "running-away";
-    private final Dictionary dictionary;
+    private static Dictionary dictionary = null;
     
-    private final String WORD1_param = "boy";
-    private final String WORD2_param = "female";
+    private String sentence1;
+    private String sentence2;
+    private List<String> sent1List;
+    private List<String> sent2List;
+    private ArrayList<WordSet> wordSets = new ArrayList<WordSet>();
     
+    
+    //WordSet set1 = new WordSet("boy","girl");
+    
+    
+    public void promptForInput()
+    {
+    	Scanner scanner = new Scanner( System.in );
+    	System.out.print( "Enter Sentence 1: " );
+    	sentence1 = scanner.nextLine();
+    	System.out.print( "Enter Sentence 2: " );
+    	sentence2 = scanner.nextLine();
+    	
+    	scanner.close();
+    }
+    
+    public void convertSentenceToArray()
+    {
+    	sent1List = Arrays.asList(sentence1.split(" "));
+    	sent2List = Arrays.asList(sentence2.split(" "));
+    }
 
+    public void createWordSets(Dictionary dictionary)
+    {
+    	IndexWord word1 = null;
+    	IndexWord word2 = null;
+    	//WordSet temp;
+    	
+    	// loop through sent1
+    	for(String sent1String : sent1List)
+    	{
+    		for(String sent2String : sent2List)
+    		{
+    			try
+    			{
+    				word1 = dictionary.getIndexWord(POS.NOUN, sent1String);
+    				word2 = dictionary.lookupIndexWord(POS.NOUN, sent2String);
+    			}
+    			catch(Exception e)
+    			{
+    				System.out.println("ERROR SOMETHING WENT WRONG WITH WORD INITIALIZATION");
+    			}
+    	        
+    			try
+    			{
+    				WordSet temp = new WordSet(sent1String, sent2String);
+    				demonstrateAsymmetricRelationshipOperation(word1, word2, temp);
+    				wordSets.add(temp);
+    			}
+    			catch(JWNLException e)
+    			{
+    				System.out.println("ERROR SOMETHING WENT WRONG! Throwing JWNL");
+    			}
+    			catch(CloneNotSupportedException e)
+    			{
+    				System.out.println("ERROR SOMETHING WENT WRONG! Throwing clone");
+    			}
+    			catch(Exception e)
+    			{
+    				System.out.println("found");
+    			}
+    		}
+    	}
+    	
+    	// print out the results
+    	for(WordSet _wordSet : wordSets)
+    	{
+    		System.out.println(_wordSet.toString());
+    	}
+    }
+    
+    /*
     public Test(Dictionary dictionary) throws JWNLException {
         this.dictionary = dictionary;
         ACCOMPLISH = dictionary.getIndexWord(POS.VERB, "accomplish");
-        WORD1 = dictionary.getIndexWord(POS.NOUN, WORD1_param);
-        WORD2 = dictionary.lookupIndexWord(POS.NOUN, WORD2_param);
+        WORD1 = dictionary.getIndexWord(POS.NOUN, set1.Word1);
+        WORD2 = dictionary.lookupIndexWord(POS.NOUN, set1.Word2);
         FUNNY = dictionary.lookupIndexWord(POS.ADJECTIVE, "funny");
         DROLL = dictionary.lookupIndexWord(POS.ADJECTIVE, "droll");
     }
-
+    */
+    
+    
+    /*
     public void go() throws JWNLException, CloneNotSupportedException {
     	demonstrateAsymmetricRelationshipOperation(WORD1, WORD2);
         //demonstrateMorphologicalAnalysis(MORPH_PHRASE);
@@ -79,23 +157,40 @@ public class Test {
         //demonstrateTreeOperation(BOY);
         //demonstrateSymmetricRelationshipOperation(FUNNY, DROLL);
     }
+    */
 
-    private void demonstrateAsymmetricRelationshipOperation(IndexWord start, IndexWord end) throws JWNLException, CloneNotSupportedException {
+    private void demonstrateAsymmetricRelationshipOperation(IndexWord start, IndexWord end, WordSet obj) throws JWNLException, CloneNotSupportedException {
         // Try to find a relationship between the first sense of <var>start</var> and the first sense of <var>end</var>
         RelationshipList list = RelationshipFinder.findRelationships(start.getSenses().get(0), end.getSenses().get(0), PointerType.HYPERNYM);
         System.out.println("Hypernym relationship between \"" + start.getLemma() + "\" and \"" + end.getLemma() + "\":");
         for (Object aList : list) {
             ((Relationship) aList).getNodeList().print();
+            Iterator itr = ((Relationship) aList).getNodeList().iterator();
+            
+            
+            while(itr.hasNext())
+            {
+            	String [] str = itr.next().toString().split("\\[");
+            	int len = str[3].length();
+            	
+            	 
+            	System.out.println("here it is -------------->: " + str[3].substring(8,len-2));
+            }
+           
         }
-        System.out.println("Common Parent Index: " + ((AsymmetricRelationship) list.get(0)).getCommonParentIndex());
-        System.out.println("Depth: " + list.get(0).getDepth());
+        
+        // set the common parent index THIS IS WRONG FOR NOW
+        //obj.Height = ((AsymmetricRelationship) list.get(0)).getCommonParentIndex();
+        obj.Length = list.get(0).getDepth();
+        
+      //System.out.println("Height: " + obj.Height);
+        System.out.println("Length: " + obj.Length);
         
         /*
         for(Object aList : list){
         	System.out.println(aList.toString());
         }
         
-        System.out.println("The Depth of the Parent in relation to the source ");
         */
     }
     
@@ -137,7 +232,21 @@ class WordSet{
 	public String Word1;
 	public String Word2;
 	
-	// the depth of the word from
+	// the depth of the most recent common ancestor
 	public int Height;
+	
+	// the length from Word1 to Word2
+	public int Length;
+	
+	public WordSet(String w1, String w2)
+	{
+		Word1 = w1;
+		Word2 = w2;
+	}
+	
+	public String toString()
+	{
+		return "Word 1: " + Word1 + " Word 2: " + Word2 + " Height: " + Height + " Length: " + Length;
+	}
 	
 }
