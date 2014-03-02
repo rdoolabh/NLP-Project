@@ -5,6 +5,8 @@ import net.sf.extjwnl.data.IndexWord;
 import net.sf.extjwnl.data.POS;
 import net.sf.extjwnl.data.PointerType;
 import net.sf.extjwnl.data.PointerUtils;
+import net.sf.extjwnl.data.Synset;
+import net.sf.extjwnl.data.list.PointerTargetNode;
 import net.sf.extjwnl.data.list.PointerTargetNodeList;
 import net.sf.extjwnl.data.list.PointerTargetTree;
 import net.sf.extjwnl.data.relationship.AsymmetricRelationship;
@@ -63,7 +65,7 @@ public class Test {
     private List<String> sent1List;
     private List<String> sent2List;
     private ArrayList<WordSet> wordSets = new ArrayList<WordSet>();
-    private boolean DEBUG = false;
+    private boolean DEBUG = true;
     
     
     //WordSet set1 = new WordSet("boy","girl");
@@ -82,8 +84,8 @@ public class Test {
     
     public void convertSentenceToArray()
     {
-    	sent1List = Arrays.asList(sentence1.split(" "));
-    	sent2List = Arrays.asList(sentence2.split(" "));
+    	sent1List = Arrays.asList(sentence1.trim().split("[ ,.!]+"));
+    	sent2List = Arrays.asList(sentence2.trim().split("[ ,.!]+"));
     }
 
     public void createWordSets(Dictionary dictionary)
@@ -154,9 +156,10 @@ public class Test {
     		/*
     		System.out.println("ANSWER: " +  answer);
     		System.out.println("Height: " + _wordSet.Height);
+    		
+    		*/
     		System.out.println("HeightTerm1----------------------------------> " + heightTerm1);
     		System.out.println("HeightTerm2----------------------------------> " + heightTerm2);
-    		*/
     		
     		double f_h = 0;
     		
@@ -203,51 +206,89 @@ public class Test {
         RelationshipList list = RelationshipFinder.findRelationships(start.getSenses().get(0), end.getSenses().get(0), PointerType.HYPERNYM);
         System.out.println("Hypernym relationship between \"" + start.getLemma() + "\" and \"" + end.getLemma() + "\":");
         
-        long min = 1000000000;
+        //Synset target = dictionary.getWordBySenseKey("entity%1:03:00::").getSynset();
         
-        for (Object aList : list) {
+        for (Relationship aList : list) {
+        	System.out.print("Depth: " + aList.getDepth());
             ((Relationship) aList).getNodeList().print();
-            Iterator itr = ((Relationship) aList).getNodeList().iterator();
-            
-            //System.out.println("THE DEPTH IS: " + ((Relationship) aList).getDepth());
-            
-            min = 1000000000;
-            while(itr.hasNext())
-            {
-            	String [] str = itr.next().toString().split("\\[");
-            	int len = str[3].length();
-            	
-            	 
-            	if(DEBUG) {System.out.println("here it is -------------->: " + str[3].substring(8,len-2));}
-            	
-            	if(Long.parseLong(str[3].substring(8,len-2)) < min)
-            	{
-            		min = Long.parseLong(str[3].substring(8,len-2));
-            	}
-            }
-           
-            if(DEBUG) {System.out.println("-----------------------------------> MINIMUM: "+min);}
         }
+        
+        Relationship shollowestList = list.getShallowest();
+        //shortestList.getNodeList().print();
+        
+        System.out.println("Here :" + shollowestList.getDepth());
+        
+        Iterator<PointerTargetNode> itr = shollowestList.getNodeList().iterator();
+        long minIndex = Integer.MAX_VALUE;
+        while(itr.hasNext()) {
+        	String [] str = itr.next().toString().split("\\[");
+        	int len = str[3].length();
+        	
+        	 
+        	if(DEBUG) {System.out.println("here it is -------------->: " + str[3].substring(8,len-2));}
+        	
+        	if(Long.parseLong(str[3].substring(8,len-2)) < minIndex)
+        	{
+        		minIndex = Long.parseLong(str[3].substring(8,len-2));
+        	}
+        }
+       
+        if(DEBUG) {
+        	System.out.println("-----------------------------------> MINIMUM: "+minIndex);
+        }
+        
+        Synset commonAncestor = dictionary.getSynsetAt(POS.NOUN, minIndex);
+        Synset target = dictionary.getWordBySenseKey("entity%1:03:00::").getSynset();
+        RelationshipList rl = RelationshipFinder.findRelationships(commonAncestor, target, PointerType.HYPERNYM);
+        int height = rl.getShallowest().getDepth();
+        int length =shollowestList.getDepth();
+        
+        obj.Height = (double) height;
+        obj.Length = (double) length;
+        
         
         // set the common parent index THIS IS WRONG
         //obj.Height = ((AsymmetricRelationship) list.get(0)).getCommonParentIndex();
-        
+        /*
         obj.Height = ((AsymmetricRelationship) list.get(0)).getDepth();
-        		
+        
+        System.out.println("Here is the index: " + ((AsymmetricRelationship) list.get(0)).getCommonParentIndex());
+        int ind = ((AsymmetricRelationship) list.get(0)).getCommonParentIndex();
+        
+        
+        Iterator<PointerTargetNode> it = ptr.iterator();
+        while(it.hasNext()) {
+        	System.out.println(it.toString());
+        }
+        */
         //System.out.println("THE DEPTH IS: " + ((Relationship) aList).getDepth());
         
         //obj.Height= min*1.0;
-        obj.Length = list.get(0).getDepth()*1.0;
+        //obj.Length = list.get(0).getDepth()*1.0;
         
-        System.out.println("Height of Ancestor: " + obj.Height);
-        System.out.println("Length: " + obj.Length);
-        
+        //System.out.println("Height of Ancestor: " + obj.Height);
+        //System.out.println("Length: " + obj.Length);
+ 
         /*
         for(Object aList : list){
         	System.out.println(aList.toString());
         }
         
         */
+    }
+    
+    private Relationship findShortestList(RelationshipList list) {
+    	Relationship shortest = null;
+    	int minListLength = Integer.MAX_VALUE;
+    	for (Relationship alist : list) {
+    		int listLength = alist.getDepth();
+    		if (listLength < minListLength) {
+    			shortest = alist;
+    			minListLength = listLength;
+    		}	
+    	}
+    	
+    	return shortest;
     }
     
     private void demonstrateMorphologicalAnalysis(String phrase) throws JWNLException {
@@ -290,7 +331,7 @@ class WordSet{
 	
 	// the depth of the most recent common ancestor
 	public double Height;
-	
+
 	// the length from Word1 to Word2
 	public double Length;
 	

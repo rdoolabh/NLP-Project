@@ -1,9 +1,0 @@
-*.iml
-.idea
-**/target/
-/target
-/data/
-/extjwnl/data/
-**/.classpath
-.project
-.settings/
