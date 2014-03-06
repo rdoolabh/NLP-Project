@@ -29,3 +29,13 @@ The man ran to the university. 	vs	The boy walked to school.
  to  		-	SAME							- to
  the 		-   NA
  university -	{university, college, school}	- school
+ 
+ 
+ **************************** Comments from after presentation ************************************
+ - change Phase 2 to be first and Phase 1 to be second
+ 
+ - compare our top phrases from each sentence with the score for the whole sentence similarity
+ 
+ - create a group of sentences (maybe around 10) and list whether they are similar or not in our own 
+ opinion (human evaluation) and compare to see if the sentence similarity is closer or our phrase comparison
+ is closer. We will want to say why we think sentences are similar too: sentence structure, similar meaning, etc.
