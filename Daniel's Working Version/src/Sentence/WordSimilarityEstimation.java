@@ -3,7 +3,6 @@ package Sentence;
 import java.util.Iterator;
 
 import net.sf.extjwnl.JWNLException;
-import net.sf.extjwnl.data.IndexWord;
 import net.sf.extjwnl.data.POS;
 import net.sf.extjwnl.data.PointerType;
 import net.sf.extjwnl.data.Synset;
@@ -12,17 +11,59 @@ import net.sf.extjwnl.data.relationship.Relationship;
 import net.sf.extjwnl.data.relationship.RelationshipFinder;
 import net.sf.extjwnl.data.relationship.RelationshipList;
 import net.sf.extjwnl.dictionary.Dictionary;
+import SentenceTool.Stemmer;
 
 public class WordSimilarityEstimation {
-
+  private boolean DEBUG = false;
+ 
   private int height;
   private int length;
   private double simScore;
   private RelationshipList list = new RelationshipList();
   private Relationship shollowestList = null;
+ 
+  private void estimateHeight(Dictionary dictionary, WordPair wp) throws JWNLException, CloneNotSupportedException {
+    Iterator<PointerTargetNode> itr = shollowestList.getNodeList().iterator();
+    long minIndex = Integer.MAX_VALUE;
+    while (itr.hasNext()) {
+      String[] str = itr.next().toString().split("\\[");
+      int len = str[3].length();
 
-  private boolean DEBUG = false;
 
+      if (DEBUG) {
+        System.out.println("here it is -------------->: " + str[3].substring(8, len - 2));
+      }
+
+      if (Long.parseLong(str[3].substring(8, len - 2)) < minIndex) {
+        minIndex = Long.parseLong(str[3].substring(8, len - 2));
+      }
+    }
+
+    if (DEBUG) {
+      System.out.println("-----------------------------------> MINIMUM: " + minIndex);
+    }
+    POS synsetPOS = wp.getWord1POS();
+    Synset commonAncestor = dictionary.getSynsetAt(synsetPOS, minIndex);
+    Synset target = dictionary.getWordBySenseKey("entity%1:03:00::").getSynset();
+    RelationshipList rl = RelationshipFinder.findRelationships(commonAncestor, target, PointerType.HYPERNYM);
+    height = rl.getShallowest().getDepth();
+  }
+
+  private void estimateLength(WordPair wp) {
+    length = shollowestList.getDepth();
+  }
+
+  
+  private String stdTrans(String str) {
+    Stemmer s = new Stemmer();
+    if (str.length() == 0)
+      return "";
+    for (int i = 0; i < str.length(); ++i) {
+      s.add(Character.toLowerCase(str.charAt(i)));
+    }
+    s.stem();
+    return s.toString();
+  }
   public int getCommonAncestorHeight() {
     return height;
   }
@@ -56,36 +97,7 @@ public class WordSimilarityEstimation {
     }
   }
 
-  private void estimateHeight(Dictionary dictionary, WordPair wp) throws JWNLException, CloneNotSupportedException {
-    Iterator<PointerTargetNode> itr = shollowestList.getNodeList().iterator();
-    long minIndex = Integer.MAX_VALUE;
-    while (itr.hasNext()) {
-      String[] str = itr.next().toString().split("\\[");
-      int len = str[3].length();
-
-
-      if (DEBUG) {
-        System.out.println("here it is -------------->: " + str[3].substring(8, len - 2));
-      }
-
-      if (Long.parseLong(str[3].substring(8, len - 2)) < minIndex) {
-        minIndex = Long.parseLong(str[3].substring(8, len - 2));
-      }
-    }
-
-    if (DEBUG) {
-      System.out.println("-----------------------------------> MINIMUM: " + minIndex);
-    }
-    Synset commonAncestor = dictionary.getSynsetAt(POS.NOUN, minIndex);
-    Synset target = dictionary.getWordBySenseKey("entity%1:03:00::").getSynset();
-    RelationshipList rl = RelationshipFinder.findRelationships(commonAncestor, target, PointerType.HYPERNYM);
-    height = rl.getShallowest().getDepth();
-  }
-
-  private void estimateLength(WordPair wp) {
-    length = shollowestList.getDepth();
-  }
-
+  
   public void computeSimilarity(Dictionary dictionary, WordPair wp) {
     if (wp.getWord1() == null || wp.getWord1().length() == 0 || wp.getWord2() == null
         || wp.getWord2().length() == 0) {
@@ -93,7 +105,7 @@ public class WordSimilarityEstimation {
       return;
     }
     
-    if (wp.getWord1().equals(wp.getWord2())) {
+    if (wp.getWord1().equals(wp.getWord2()) || stdTrans(wp.getWord1()).equals(stdTrans(wp.getWord2()))) {
       wp.setScore(1.0);
       return;
     }

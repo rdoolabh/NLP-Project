@@ -5,6 +5,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 
 import net.sf.extjwnl.JWNLException;
+import net.sf.extjwnl.data.POS;
 import net.sf.extjwnl.dictionary.Dictionary;
 
 public class WordCombinationGenerator {
@@ -15,7 +16,6 @@ public class WordCombinationGenerator {
   private ArrayList<WordPair> sent2AndJointSetWordPairs = new ArrayList<WordPair>();
   
   private void createJointWordSet(ArrayList<String> arr1, ArrayList<String> arr2) {
-    
     HashMap<String, Boolean> hash = new HashMap<String, Boolean>();
     for (int i = 0; i < arr1.size(); ++i) {
       if (hash.containsKey(arr1.get(i)))
@@ -34,6 +34,18 @@ public class WordCombinationGenerator {
     
   }
 
+  public POS parseWordPOS(String str) {
+    if (str.equals("NOUN") || str.equals("N") || str.equals("n") ) {
+      return POS.NOUN;
+    } else if(str.equals("VERB") || str.equals("V") || str.equals("v") ) {
+      return POS.VERB;
+    } else if(str.equals("JJ") || str.equals("ADJ") || str.equals("adj") ) {
+      return POS.ADJECTIVE;
+    } else {
+      return POS.ADVERB;
+    }
+  }
+  
   public WordCombinationGenerator(Dictionary dictionary, String sentence1, String sentence2) throws JWNLException {
     sent1WordList.addAll(Arrays.asList(sentence1.trim().split("[ ,.!]+")));
     sent2WordList.addAll(Arrays.asList(sentence2.trim().split("[ ,.!]+")));
@@ -44,12 +56,19 @@ public class WordCombinationGenerator {
 
   private void generateCombination(Dictionary dictionary) throws JWNLException {
     for (int i = 0; i < jointWordsList.size(); ++i) {
+      String jointWord = jointWordsList.get(i).split("_")[0];
+      POS jointWordPOS = parseWordPOS(jointWordsList.get(i).split("_")[1]);
+      
       for (int m = 0; m < sent1WordList.size(); ++m) {
-        WordPair wp = new WordPair(dictionary, jointWordsList.get(i), sent1WordList.get(m));
+        String sentWord = sent1WordList.get(m).split("_")[0];
+        POS sentWordPOS = parseWordPOS(sent1WordList.get(m).split("_")[1]);
+        WordPair wp = new WordPair(dictionary, jointWord, jointWordPOS, sentWord, sentWordPOS);
         this.sent1AndJointSetWordPairs.add(wp);
       }
       for (int n = 0; n < sent2WordList.size(); ++n) {
-        WordPair wp = new WordPair(dictionary, jointWordsList.get(i), sent2WordList.get(n));
+        String sentWord = sent2WordList.get(n).split("_")[0];
+        POS sentWordPOS = parseWordPOS(sent2WordList.get(n).split("_")[1]);
+        WordPair wp = new WordPair(dictionary, jointWord, jointWordPOS, sentWord, sentWordPOS);
         this.sent2AndJointSetWordPairs.add(wp);
       }  
     }
@@ -63,4 +82,5 @@ public class WordCombinationGenerator {
   public ArrayList<WordPair> getSent2AndJointSetWordPairs() {
     return this.sent2AndJointSetWordPairs;
   }
+  
 }

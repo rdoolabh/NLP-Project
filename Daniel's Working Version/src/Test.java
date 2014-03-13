@@ -101,8 +101,8 @@ public class Test {
     		{
     			try
     			{    
-    				word1 = dictionary.getIndexWord(POS.NOUN, sent1String);
-    				word2 = dictionary.lookupIndexWord(POS.NOUN, sent2String);
+    				word1 = dictionary.getIndexWord(POS.ADJECTIVE, sent1String);
+    				word2 = dictionary.getIndexWord(POS.ADJECTIVE, sent2String);
     			}
     			catch(Exception e)
     			{

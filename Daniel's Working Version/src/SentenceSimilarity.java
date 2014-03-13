@@ -49,18 +49,19 @@ public class SentenceSimilarity {
     }
     ss.printSentence();
     WordCombinationGenerator wc = new WordCombinationGenerator(dictionary, ss.sentence1, ss.sentence2);
-    ArrayList<WordPair> wordPairs = wc.getSent2AndJointSetWordPairs(); 
-    
+    ArrayList<WordPair> wordPairs = wc.getSent2AndJointSetWordPairs();
+
     for (WordPair wp : wordPairs) {
-//      System.out.println(wp.getWord1() + " & " + wp.getWord2());
+      // System.out.println(wp.getWord1() + " & " + wp.getWord2());
       WordSimilarityEstimation wse = new WordSimilarityEstimation(wp);
       wse.computeSimilarity(dictionary, wp);
 
     }
     for (WordPair wp : wordPairs) {
-    System.out.println(wp.getWord1() + " & " + wp.getWord2() + ": " + wp.getSemanticScore());
-//    System.out.println(wse.getShortestPathLength() + " "+ wse.getCommonAncestorHeight());
-  }}
+      System.out.println(wp.getWord1() + " & " + wp.getWord2() + ": " + wp.getSemanticScore());
+      // System.out.println(wse.getShortestPathLength() + " "+ wse.getCommonAncestorHeight());
+    }
+  }
 
   public void printSentence() {
     System.out.println(sentence1);

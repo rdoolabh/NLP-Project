@@ -1,2 +1,3 @@
-ENTER SENTENCE 1: The cat sit on the mat.
-ENTER SENTENCE 2: The dog run.
+ENTER SENTENCE 1: cat_NOUN
+ENTER SENTENCE 2: dog_N play_VERB
+
