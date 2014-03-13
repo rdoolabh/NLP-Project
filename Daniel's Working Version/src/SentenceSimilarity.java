@@ -58,11 +58,11 @@ public class SentenceSimilarity {
     BufferedReader reader = new BufferedReader(new InputStreamReader(is, "UTF-8"));
     String line = reader.readLine();
     while (line != null) {
-      try {
-        textArr.add(line);
-      } catch (NullPointerException e) {
-        System.out.println(line);
-        e.printStackTrace();
+      if (line.startsWith("ENTER SENTENCE 1:")) {
+        sentence1 = line.split("ENTER SENTENCE 1:")[1].trim();
+      }
+      if (line.startsWith("ENTER SENTENCE 2:")) {
+        sentence1 = line.split("ENTER SENTENCE 2:")[1].trim();
       }
       line = reader.readLine();
     }
