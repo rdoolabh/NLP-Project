@@ -145,7 +145,7 @@ public class Test {
     	for(WordSet _wordSet : wordSets)
     	{
     		// compute f(l)
-    		double f_l = Math.pow(2.17, (-1)*0.2*_wordSet.Length);
+    		double f_l = Math.pow(2.71828, (-1)*0.2*_wordSet.Length);
     		
     		// compute f(h)
     		double heightTerm1 = Math.pow(2.71828, 0.45*_wordSet.Height);

@@ -1,6 +1,5 @@
 import java.io.BufferedReader;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -14,21 +13,21 @@ import java.util.Set;
 
 import net.sf.extjwnl.JWNLException;
 import net.sf.extjwnl.dictionary.Dictionary;
+import Sentence.WordCombinationGenerator;
+import Sentence.WordPair;
+import Sentence.WordSimilarityEstimation;
 
 
 public class SentenceSimilarity {
   private static final String USAGE = "Usage: Examples [properties file]";
   private static final Set<String> HELP_KEYS = Collections.unmodifiableSet(new HashSet<String>(Arrays.asList(
       "--help", "-help", "/help", "--?", "-?", "?", "/?")));
-  
+
   private static Dictionary dictionary = null;
   private String sentence1;
   private String sentence2;
-  private List<String> sent1List;
-  private List<String> sent2List;
 
-  public static void main(String[] args) throws FileNotFoundException, JWNLException,
-      CloneNotSupportedException {
+  public static void main(String[] args) throws JWNLException, CloneNotSupportedException, IOException {
     // Dictionary dictionary = null;
     if (args.length != 1) {
       dictionary = Dictionary.getDefaultResourceInstance();
@@ -41,20 +40,36 @@ public class SentenceSimilarity {
       }
     }
 
-    if (null != dictionary) {
-      Test test = new Test();
-      test.promptForInput();
-      test.convertSentenceToArray();
-      test.createWordSets(dictionary);
-      test.computeSimilarityScore();
-      test.printWordSets();
-      // new Test(dictionary).go();
-      // test.go();
+    SentenceSimilarity ss = new SentenceSimilarity();
+
+    try {
+      ss.readFileForInput("/input.txt");
+    } catch (Exception e) {
+      ss.promptForInput();
     }
+    ss.printSentence();
+    WordCombinationGenerator wc = new WordCombinationGenerator(dictionary, ss.sentence1, ss.sentence2);
+    ArrayList<WordPair> wordPairs = wc.getSent2AndJointSetWordPairs(); 
+    
+    for (WordPair wp : wordPairs) {
+//      System.out.println(wp.getWord1() + " & " + wp.getWord2());
+      WordSimilarityEstimation wse = new WordSimilarityEstimation(wp);
+      wse.computeSimilarity(dictionary, wp);
+
+    }
+    for (WordPair wp : wordPairs) {
+    System.out.println(wp.getWord1() + " & " + wp.getWord2() + ": " + wp.getSemanticScore());
+//    System.out.println(wse.getShortestPathLength() + " "+ wse.getCommonAncestorHeight());
+  }}
+
+  public void printSentence() {
+    System.out.println(sentence1);
+    System.out.println(sentence2);
   }
-  
+
   public void readFileForInput(String filePath) throws IOException {
-    InputStream is = new FileInputStream(filePath);
+    // InputStream is = new FileInputStream(filePath);
+    InputStream is = getClass().getClassLoader().getResourceAsStream("input.txt");
     BufferedReader reader = new BufferedReader(new InputStreamReader(is, "UTF-8"));
     String line = reader.readLine();
     while (line != null) {
@@ -62,28 +77,24 @@ public class SentenceSimilarity {
         sentence1 = line.split("ENTER SENTENCE 1:")[1].trim();
       }
       if (line.startsWith("ENTER SENTENCE 2:")) {
-        sentence1 = line.split("ENTER SENTENCE 2:")[1].trim();
+        sentence2 = line.split("ENTER SENTENCE 2:")[1].trim();
       }
       line = reader.readLine();
     }
     reader.close();
     is.close();
   }
-  
-  public void promptForInput()
-  {
-      Scanner scanner = new Scanner( System.in );
-      System.out.print( "Enter Sentence 1: " );
-      sentence1 = scanner.nextLine();
-      System.out.print( "Enter Sentence 2: " );
-      sentence2 = scanner.nextLine();
-      
-      scanner.close();
+
+  public void promptForInput() {
+    Scanner scanner = new Scanner(System.in);
+    System.out.print("Enter Sentence 1: ");
+    sentence1 = scanner.nextLine();
+    System.out.print("Enter Sentence 2: ");
+    sentence2 = scanner.nextLine();
+    scanner.close();
   }
-  
-  public void convertSentenceToArray()
-  {
-      sent1List = Arrays.asList(sentence1.trim().split("[ ,.!]+"));
-      sent2List = Arrays.asList(sentence2.trim().split("[ ,.!]+"));
+
+  public List<String> convertSentenceToArray(String sentence) {
+    return Arrays.asList(sentence.trim().split("[ ,.!]+"));
   }
 }
