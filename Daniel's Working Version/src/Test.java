@@ -100,7 +100,7 @@ public class Test {
     		for(String sent2String : sent2List)
     		{
     			try
-    			{
+    			{    
     				word1 = dictionary.getIndexWord(POS.NOUN, sent1String);
     				word2 = dictionary.lookupIndexWord(POS.NOUN, sent2String);
     			}
@@ -125,7 +125,7 @@ public class Test {
     			}
     			catch(Exception e)
     			{
-    				System.out.println("found");
+    				e.printStackTrace();
     			}
     		}
     	}
