@@ -1,0 +1,85 @@
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,the,the dog eat a bone ,0.044,
+Phrase v.s. Sentence Similarity,the,a cat sit on the mat ,0.036,
+Score,1.000,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,a,the dog eat a bone ,0.087,
+Phrase v.s. Sentence Similarity,a,a cat sit on the mat ,0.070,
+Score,1.000,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,cat,the dog eat a bone ,0.442,
+Phrase v.s. Sentence Similarity,dog,a cat sit on the mat ,0.542,
+Score,0.750,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,cat,the dog eat a bone ,0.442,
+Phrase v.s. Sentence Similarity,the dog,a cat sit on the mat ,0.543,
+Score,0.748,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,a cat,the dog eat a bone ,0.449,
+Phrase v.s. Sentence Similarity,dog,a cat sit on the mat ,0.542,
+Score,0.745,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,a cat,the dog eat a bone ,0.449,
+Phrase v.s. Sentence Similarity,the dog,a cat sit on the mat ,0.543,
+Score,0.743,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,a cat sit on the mat,the dog eat a bone ,0.342,
+Phrase v.s. Sentence Similarity,the dog,a cat sit on the mat ,0.543,
+Score,0.543,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,a cat sit on the mat,the dog eat a bone ,0.342,
+Phrase v.s. Sentence Similarity,dog,a cat sit on the mat ,0.542,
+Score,0.542,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,a cat,the dog eat a bone ,0.449,
+Phrase v.s. Sentence Similarity,the dog eat a bone,a cat sit on the mat ,0.342,
+Score,0.449,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,cat,the dog eat a bone ,0.442,
+Phrase v.s. Sentence Similarity,the dog eat a bone,a cat sit on the mat ,0.342,
+Score,0.442,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,a cat sit on the mat,the dog eat a bone ,0.342,
+Phrase v.s. Sentence Similarity,the dog eat a bone,a cat sit on the mat ,0.342,
+Score,0.342,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,the mat,the dog eat a bone ,0.200,
+Phrase v.s. Sentence Similarity,the dog,a cat sit on the mat ,0.543,
+Score,0.316,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,mat,the dog eat a bone ,0.198,
+Phrase v.s. Sentence Similarity,dog,a cat sit on the mat ,0.542,
+Score,0.314,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,the mat,the dog eat a bone ,0.200,
+Phrase v.s. Sentence Similarity,dog,a cat sit on the mat ,0.542,
+Score,0.313,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,mat,the dog eat a bone ,0.198,
+Phrase v.s. Sentence Similarity,the dog,a cat sit on the mat ,0.543,
+Score,0.313,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,on the mat,the dog eat a bone ,0.197,
+Phrase v.s. Sentence Similarity,the dog,a cat sit on the mat ,0.543,
+Score,0.312,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,on the mat,the dog eat a bone ,0.197,
+Phrase v.s. Sentence Similarity,dog,a cat sit on the mat ,0.542,
+Score,0.309,1.000,
+

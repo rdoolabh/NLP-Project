@@ -1,0 +1,180 @@
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,a man run to the shop,a lady shop at the store ,0.827,
+Phrase v.s. Sentence Similarity,a lady shop at the store,a man run to the shop ,0.827,
+Score,0.827,0.827,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,a man run to the shop,a lady shop at the store ,0.827,
+Phrase v.s. Sentence Similarity,shop at the store,a man run to the shop ,0.828,
+Score,0.828,0.827,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,a man run to the shop,a lady shop at the store ,0.827,
+Phrase v.s. Sentence Similarity,shop,a man run to the shop ,0.753,
+Score,0.753,0.827,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,a man run to the shop,a lady shop at the store ,0.827,
+Phrase v.s. Sentence Similarity,at the store,a man run to the shop ,0.828,
+Score,0.828,0.827,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,a man run to the shop,a lady shop at the store ,0.827,
+Phrase v.s. Sentence Similarity,the store,a man run to the shop ,0.846,
+Score,0.846,0.827,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,a man run to the shop,a lady shop at the store ,0.827,
+Phrase v.s. Sentence Similarity,store,a man run to the shop ,0.845,
+Score,0.845,0.827,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,a man,a lady shop at the store ,0.617,
+Phrase v.s. Sentence Similarity,a lady,a man run to the shop ,0.432,
+Score,0.849,0.827,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,a man,a lady shop at the store ,0.617,
+Phrase v.s. Sentence Similarity,lady,a man run to the shop ,0.420,
+Score,0.820,0.827,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,a,a lady shop at the store ,0.090,
+Phrase v.s. Sentence Similarity,a,a man run to the shop ,0.114,
+Score,1.000,0.827,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,man,a lady shop at the store ,0.614,
+Phrase v.s. Sentence Similarity,a lady,a man run to the shop ,0.432,
+Score,0.837,0.827,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,man,a lady shop at the store ,0.614,
+Phrase v.s. Sentence Similarity,lady,a man run to the shop ,0.420,
+Score,0.847,0.827,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,run to the shop,a lady shop at the store ,0.737,
+Phrase v.s. Sentence Similarity,a lady shop at the store,a man run to the shop ,0.827,
+Score,0.737,0.827,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,run to the shop,a lady shop at the store ,0.737,
+Phrase v.s. Sentence Similarity,shop at the store,a man run to the shop ,0.828,
+Score,0.855,0.827,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,run to the shop,a lady shop at the store ,0.737,
+Phrase v.s. Sentence Similarity,shop,a man run to the shop ,0.753,
+Score,0.786,0.827,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,run to the shop,a lady shop at the store ,0.737,
+Phrase v.s. Sentence Similarity,at the store,a man run to the shop ,0.828,
+Score,0.854,0.827,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,run to the shop,a lady shop at the store ,0.737,
+Phrase v.s. Sentence Similarity,the store,a man run to the shop ,0.846,
+Score,0.874,0.827,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,run to the shop,a lady shop at the store ,0.737,
+Phrase v.s. Sentence Similarity,store,a man run to the shop ,0.845,
+Score,0.872,0.827,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,to the shop,a lady shop at the store ,0.839,
+Phrase v.s. Sentence Similarity,a lady shop at the store,a man run to the shop ,0.827,
+Score,0.839,0.827,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,to the shop,a lady shop at the store ,0.839,
+Phrase v.s. Sentence Similarity,shop at the store,a man run to the shop ,0.828,
+Score,0.973,0.827,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,to the shop,a lady shop at the store ,0.839,
+Phrase v.s. Sentence Similarity,shop,a man run to the shop ,0.753,
+Score,0.986,0.827,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,to the shop,a lady shop at the store ,0.839,
+Phrase v.s. Sentence Similarity,at the store,a man run to the shop ,0.828,
+Score,0.972,0.827,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,to the shop,a lady shop at the store ,0.839,
+Phrase v.s. Sentence Similarity,the store,a man run to the shop ,0.846,
+Score,0.995,0.827,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,to the shop,a lady shop at the store ,0.839,
+Phrase v.s. Sentence Similarity,store,a man run to the shop ,0.845,
+Score,0.993,0.827,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,the shop,a lady shop at the store ,0.843,
+Phrase v.s. Sentence Similarity,a lady shop at the store,a man run to the shop ,0.827,
+Score,0.843,0.827,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,the shop,a lady shop at the store ,0.843,
+Phrase v.s. Sentence Similarity,shop at the store,a man run to the shop ,0.828,
+Score,0.978,0.827,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,the shop,a lady shop at the store ,0.843,
+Phrase v.s. Sentence Similarity,shop,a man run to the shop ,0.753,
+Score,0.997,0.827,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,the shop,a lady shop at the store ,0.843,
+Phrase v.s. Sentence Similarity,at the store,a man run to the shop ,0.828,
+Score,0.978,0.827,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,the shop,a lady shop at the store ,0.843,
+Phrase v.s. Sentence Similarity,the store,a man run to the shop ,0.846,
+Score,1.000,0.827,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,the shop,a lady shop at the store ,0.843,
+Phrase v.s. Sentence Similarity,store,a man run to the shop ,0.845,
+Score,0.998,0.827,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,the,a lady shop at the store ,0.046,
+Phrase v.s. Sentence Similarity,the,a man run to the shop ,0.058,
+Score,1.000,0.827,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,shop,a lady shop at the store ,0.842,
+Phrase v.s. Sentence Similarity,a lady shop at the store,a man run to the shop ,0.827,
+Score,0.842,0.827,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,shop,a lady shop at the store ,0.842,
+Phrase v.s. Sentence Similarity,shop at the store,a man run to the shop ,0.828,
+Score,0.977,0.827,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,shop,a lady shop at the store ,0.842,
+Phrase v.s. Sentence Similarity,shop,a man run to the shop ,0.753,
+Score,1.000,0.827,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,shop,a lady shop at the store ,0.842,
+Phrase v.s. Sentence Similarity,at the store,a man run to the shop ,0.828,
+Score,0.976,0.827,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,shop,a lady shop at the store ,0.842,
+Phrase v.s. Sentence Similarity,the store,a man run to the shop ,0.846,
+Score,0.998,0.827,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,shop,a lady shop at the store ,0.842,
+Phrase v.s. Sentence Similarity,store,a man run to the shop ,0.845,
+Score,1.000,0.827,
+

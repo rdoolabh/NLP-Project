@@ -1,0 +1,300 @@
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,do,she is the leader and she know what she want to do ,0.305,
+Phrase v.s. Sentence Similarity,do,she is the leader because she know what she want to do ,0.289,
+Score,1.000,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,to,she is the leader and she know what she want to do ,0.095,
+Phrase v.s. Sentence Similarity,to,she is the leader because she know what she want to do ,0.090,
+Score,1.000,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,to do,she is the leader and she know what she want to do ,0.319,
+Phrase v.s. Sentence Similarity,to do,she is the leader because she know what she want to do ,0.303,
+Score,1.000,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,want,she is the leader and she know what she want to do ,0.448,
+Phrase v.s. Sentence Similarity,want,she is the leader because she know what she want to do ,0.425,
+Score,1.000,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,want to do,she is the leader and she know what she want to do ,0.550,
+Phrase v.s. Sentence Similarity,want to do,she is the leader because she know what she want to do ,0.522,
+Score,1.000,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,she want to do,she is the leader and she know what she want to do ,0.601,
+Phrase v.s. Sentence Similarity,she want to do,she is the leader because she know what she want to do ,0.570,
+Score,1.000,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,what,she is the leader and she know what she want to do ,0.275,
+Phrase v.s. Sentence Similarity,what,she is the leader because she know what she want to do ,0.261,
+Score,1.000,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,what she want to do,she is the leader and she know what she want to do ,0.661,
+Phrase v.s. Sentence Similarity,what she want to do,she is the leader because she know what she want to do ,0.627,
+Score,1.000,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,know,she is the leader and she know what she want to do ,0.371,
+Phrase v.s. Sentence Similarity,know,she is the leader because she know what she want to do ,0.352,
+Score,1.000,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,know what she want to do,she is the leader and she know what she want to do ,0.758,
+Phrase v.s. Sentence Similarity,know what she want to do,she is the leader because she know what she want to do ,0.719,
+Score,1.000,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,know what she want to do,she is the leader and she know what she want to do ,0.758,
+Phrase v.s. Sentence Similarity,she know what she want to do,she is the leader because she know what she want to do ,0.719,
+Score,1.000,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,she know what she want to do,she is the leader and she know what she want to do ,0.758,
+Phrase v.s. Sentence Similarity,know what she want to do,she is the leader because she know what she want to do ,0.719,
+Score,1.000,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,she know what she want to do,she is the leader and she know what she want to do ,0.758,
+Phrase v.s. Sentence Similarity,she know what she want to do,she is the leader because she know what she want to do ,0.719,
+Score,1.000,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,leader,she is the leader and she know what she want to do ,0.627,
+Phrase v.s. Sentence Similarity,leader,she is the leader because she know what she want to do ,0.595,
+Score,1.000,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,the,she is the leader and she know what she want to do ,0.052,
+Phrase v.s. Sentence Similarity,the,she is the leader because she know what she want to do ,0.049,
+Score,1.000,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,is,she is the leader and she know what she want to do ,0.150,
+Phrase v.s. Sentence Similarity,is,she is the leader because she know what she want to do ,0.142,
+Score,1.000,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,she,she is the leader and she know what she want to do ,0.241,
+Phrase v.s. Sentence Similarity,she,she is the leader because she know what she want to do ,0.229,
+Score,1.000,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,the leader,she is the leader and she know what she want to do ,0.629,
+Phrase v.s. Sentence Similarity,the leader,she is the leader because she know what she want to do ,0.597,
+Score,1.000,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,leader,she is the leader and she know what she want to do ,0.627,
+Phrase v.s. Sentence Similarity,the leader,she is the leader because she know what she want to do ,0.597,
+Score,0.997,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,the leader,she is the leader and she know what she want to do ,0.629,
+Phrase v.s. Sentence Similarity,leader,she is the leader because she know what she want to do ,0.595,
+Score,0.997,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,the leader,she is the leader and she know what she want to do ,0.629,
+Phrase v.s. Sentence Similarity,is the leader,she is the leader because she know what she want to do ,0.613,
+Score,0.973,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,leader,she is the leader and she know what she want to do ,0.627,
+Phrase v.s. Sentence Similarity,is the leader,she is the leader because she know what she want to do ,0.613,
+Score,0.970,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,do,she is the leader and she know what she want to do ,0.305,
+Phrase v.s. Sentence Similarity,to do,she is the leader because she know what she want to do ,0.303,
+Score,0.955,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,to do,she is the leader and she know what she want to do ,0.319,
+Phrase v.s. Sentence Similarity,do,she is the leader because she know what she want to do ,0.289,
+Score,0.955,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,is the leader because she know what she want to do,she is the leader and she know what she want to do ,0.941,
+Phrase v.s. Sentence Similarity,she is the leader and she know what she want to do,she is the leader because she know what she want to do ,0.941,
+Score,0.941,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,she is the leader because she know what she want to do,she is the leader and she know what she want to do ,0.941,
+Phrase v.s. Sentence Similarity,she is the leader and she know what she want to do,she is the leader because she know what she want to do ,0.941,
+Score,0.941,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,want to do,she is the leader and she know what she want to do ,0.550,
+Phrase v.s. Sentence Similarity,she want to do,she is the leader because she know what she want to do ,0.570,
+Score,0.916,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,she want to do,she is the leader and she know what she want to do ,0.601,
+Phrase v.s. Sentence Similarity,want to do,she is the leader because she know what she want to do ,0.522,
+Score,0.916,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,the leader,she is the leader and she know what she want to do ,0.629,
+Phrase v.s. Sentence Similarity,she is the leader,she is the leader because she know what she want to do ,0.655,
+Score,0.912,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,because she know what she want to do,she is the leader and she know what she want to do ,0.689,
+Phrase v.s. Sentence Similarity,know what she want to do,she is the leader because she know what she want to do ,0.719,
+Score,0.910,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,because she know what she want to do,she is the leader and she know what she want to do ,0.689,
+Phrase v.s. Sentence Similarity,she know what she want to do,she is the leader because she know what she want to do ,0.719,
+Score,0.910,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,she want to do,she is the leader and she know what she want to do ,0.601,
+Phrase v.s. Sentence Similarity,what she want to do,she is the leader because she know what she want to do ,0.627,
+Score,0.909,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,what she want to do,she is the leader and she know what she want to do ,0.661,
+Phrase v.s. Sentence Similarity,she want to do,she is the leader because she know what she want to do ,0.570,
+Score,0.909,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,leader,she is the leader and she know what she want to do ,0.627,
+Phrase v.s. Sentence Similarity,she is the leader,she is the leader because she know what she want to do ,0.655,
+Score,0.908,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,what she want to do,she is the leader and she know what she want to do ,0.661,
+Phrase v.s. Sentence Similarity,know what she want to do,she is the leader because she know what she want to do ,0.719,
+Score,0.872,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,what she want to do,she is the leader and she know what she want to do ,0.661,
+Phrase v.s. Sentence Similarity,she know what she want to do,she is the leader because she know what she want to do ,0.719,
+Score,0.872,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,know what she want to do,she is the leader and she know what she want to do ,0.758,
+Phrase v.s. Sentence Similarity,what she want to do,she is the leader because she know what she want to do ,0.627,
+Score,0.872,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,she know what she want to do,she is the leader and she know what she want to do ,0.758,
+Phrase v.s. Sentence Similarity,what she want to do,she is the leader because she know what she want to do ,0.627,
+Score,0.872,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,want to do,she is the leader and she know what she want to do ,0.550,
+Phrase v.s. Sentence Similarity,what she want to do,she is the leader because she know what she want to do ,0.627,
+Score,0.833,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,what she want to do,she is the leader and she know what she want to do ,0.661,
+Phrase v.s. Sentence Similarity,want to do,she is the leader because she know what she want to do ,0.522,
+Score,0.833,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,want,she is the leader and she know what she want to do ,0.448,
+Phrase v.s. Sentence Similarity,want to do,she is the leader because she know what she want to do ,0.522,
+Score,0.814,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,want to do,she is the leader and she know what she want to do ,0.550,
+Phrase v.s. Sentence Similarity,want,she is the leader because she know what she want to do ,0.425,
+Score,0.814,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,because she know what she want to do,she is the leader and she know what she want to do ,0.689,
+Phrase v.s. Sentence Similarity,what she want to do,she is the leader because she know what she want to do ,0.627,
+Score,0.793,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,she want to do,she is the leader and she know what she want to do ,0.601,
+Phrase v.s. Sentence Similarity,know what she want to do,she is the leader because she know what she want to do ,0.719,
+Score,0.793,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,she want to do,she is the leader and she know what she want to do ,0.601,
+Phrase v.s. Sentence Similarity,she know what she want to do,she is the leader because she know what she want to do ,0.719,
+Score,0.793,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,know what she want to do,she is the leader and she know what she want to do ,0.758,
+Phrase v.s. Sentence Similarity,she want to do,she is the leader because she know what she want to do ,0.570,
+Score,0.793,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,she know what she want to do,she is the leader and she know what she want to do ,0.758,
+Phrase v.s. Sentence Similarity,she want to do,she is the leader because she know what she want to do ,0.570,
+Score,0.793,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,know what she want to do,she is the leader and she know what she want to do ,0.758,
+Phrase v.s. Sentence Similarity,she is the leader and she know what she want to do,she is the leader because she know what she want to do ,0.941,
+Score,0.758,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,she know what she want to do,she is the leader and she know what she want to do ,0.758,
+Phrase v.s. Sentence Similarity,she is the leader and she know what she want to do,she is the leader because she know what she want to do ,0.941,
+Score,0.758,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,want,she is the leader and she know what she want to do ,0.448,
+Phrase v.s. Sentence Similarity,she want to do,she is the leader because she know what she want to do ,0.570,
+Score,0.746,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,she want to do,she is the leader and she know what she want to do ,0.601,
+Phrase v.s. Sentence Similarity,want,she is the leader because she know what she want to do ,0.425,
+Score,0.746,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,want to do,she is the leader and she know what she want to do ,0.550,
+Phrase v.s. Sentence Similarity,know what she want to do,she is the leader because she know what she want to do ,0.719,
+Score,0.726,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,want to do,she is the leader and she know what she want to do ,0.550,
+Phrase v.s. Sentence Similarity,she know what she want to do,she is the leader because she know what she want to do ,0.719,
+Score,0.726,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,know what she want to do,she is the leader and she know what she want to do ,0.758,
+Phrase v.s. Sentence Similarity,want to do,she is the leader because she know what she want to do ,0.522,
+Score,0.726,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,she know what she want to do,she is the leader and she know what she want to do ,0.758,
+Phrase v.s. Sentence Similarity,want to do,she is the leader because she know what she want to do ,0.522,
+Score,0.726,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,because she know what she want to do,she is the leader and she know what she want to do ,0.689,
+Phrase v.s. Sentence Similarity,she want to do,she is the leader because she know what she want to do ,0.570,
+Score,0.721,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,is the leader because she know what she want to do,she is the leader and she know what she want to do ,0.941,
+Phrase v.s. Sentence Similarity,know what she want to do,she is the leader because she know what she want to do ,0.719,
+Score,0.719,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,is the leader because she know what she want to do,she is the leader and she know what she want to do ,0.941,
+Phrase v.s. Sentence Similarity,she know what she want to do,she is the leader because she know what she want to do ,0.719,
+Score,0.719,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,she is the leader because she know what she want to do,she is the leader and she know what she want to do ,0.941,
+Phrase v.s. Sentence Similarity,know what she want to do,she is the leader because she know what she want to do ,0.719,
+Score,0.719,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,she is the leader because she know what she want to do,she is the leader and she know what she want to do ,0.941,
+Phrase v.s. Sentence Similarity,she know what she want to do,she is the leader because she know what she want to do ,0.719,
+Score,0.719,1.000,
+

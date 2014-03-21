@@ -1,0 +1,150 @@
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,them,michael speak to them and turn back to the fire ,0.207,
+Phrase v.s. Sentence Similarity,them,michael turn back to the fire and speak to them ,0.207,
+Score,1.000,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,to them,michael speak to them and turn back to the fire ,0.218,
+Phrase v.s. Sentence Similarity,to them,michael turn back to the fire and speak to them ,0.218,
+Score,1.000,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,speak,michael speak to them and turn back to the fire ,0.425,
+Phrase v.s. Sentence Similarity,speak,michael turn back to the fire and speak to them ,0.425,
+Score,1.000,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,speak to them,michael speak to them and turn back to the fire ,0.477,
+Phrase v.s. Sentence Similarity,speak to them,michael turn back to the fire and speak to them ,0.477,
+Score,1.000,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,and,michael speak to them and turn back to the fire ,0.066,
+Phrase v.s. Sentence Similarity,and,michael turn back to the fire and speak to them ,0.066,
+Score,1.000,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,fire,michael speak to them and turn back to the fire ,0.474,
+Phrase v.s. Sentence Similarity,fire,michael turn back to the fire and speak to them ,0.474,
+Score,1.000,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,the,michael speak to them and turn back to the fire ,0.038,
+Phrase v.s. Sentence Similarity,the,michael turn back to the fire and speak to them ,0.038,
+Score,1.000,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,the fire,michael speak to them and turn back to the fire ,0.476,
+Phrase v.s. Sentence Similarity,the fire,michael turn back to the fire and speak to them ,0.476,
+Score,1.000,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,to,michael speak to them and turn back to the fire ,0.070,
+Phrase v.s. Sentence Similarity,to,michael turn back to the fire and speak to them ,0.070,
+Score,1.000,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,to the fire,michael speak to them and turn back to the fire ,0.481,
+Phrase v.s. Sentence Similarity,to the fire,michael turn back to the fire and speak to them ,0.481,
+Score,1.000,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,back,michael speak to them and turn back to the fire ,0.248,
+Phrase v.s. Sentence Similarity,back,michael turn back to the fire and speak to them ,0.248,
+Score,1.000,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,turn,michael speak to them and turn back to the fire ,0.358,
+Phrase v.s. Sentence Similarity,turn,michael turn back to the fire and speak to them ,0.358,
+Score,1.000,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,turn back to the fire,michael speak to them and turn back to the fire ,0.645,
+Phrase v.s. Sentence Similarity,turn back to the fire,michael turn back to the fire and speak to them ,0.645,
+Score,1.000,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,michael,michael speak to them and turn back to the fire ,0.690,
+Phrase v.s. Sentence Similarity,michael,michael turn back to the fire and speak to them ,0.690,
+Score,1.000,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,michael turn back to the fire and speak to them,michael speak to them and turn back to the fire ,1.000,
+Phrase v.s. Sentence Similarity,michael speak to them and turn back to the fire,michael turn back to the fire and speak to them ,1.000,
+Score,1.000,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,turn back to the fire and speak to them,michael speak to them and turn back to the fire ,0.801,
+Phrase v.s. Sentence Similarity,speak to them and turn back to the fire,michael turn back to the fire and speak to them ,0.801,
+Score,1.000,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,fire,michael speak to them and turn back to the fire ,0.474,
+Phrase v.s. Sentence Similarity,the fire,michael turn back to the fire and speak to them ,0.476,
+Score,0.995,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,the fire,michael speak to them and turn back to the fire ,0.476,
+Phrase v.s. Sentence Similarity,fire,michael turn back to the fire and speak to them ,0.474,
+Score,0.995,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,the fire,michael speak to them and turn back to the fire ,0.476,
+Phrase v.s. Sentence Similarity,to the fire,michael turn back to the fire and speak to them ,0.481,
+Score,0.983,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,to the fire,michael speak to them and turn back to the fire ,0.481,
+Phrase v.s. Sentence Similarity,the fire,michael turn back to the fire and speak to them ,0.476,
+Score,0.983,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,fire,michael speak to them and turn back to the fire ,0.474,
+Phrase v.s. Sentence Similarity,to the fire,michael turn back to the fire and speak to them ,0.481,
+Score,0.978,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,to the fire,michael speak to them and turn back to the fire ,0.481,
+Phrase v.s. Sentence Similarity,fire,michael turn back to the fire and speak to them ,0.474,
+Score,0.978,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,them,michael speak to them and turn back to the fire ,0.207,
+Phrase v.s. Sentence Similarity,to them,michael turn back to the fire and speak to them ,0.218,
+Score,0.947,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,to them,michael speak to them and turn back to the fire ,0.218,
+Phrase v.s. Sentence Similarity,them,michael turn back to the fire and speak to them ,0.207,
+Score,0.947,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,speak,michael speak to them and turn back to the fire ,0.425,
+Phrase v.s. Sentence Similarity,speak to them,michael turn back to the fire and speak to them ,0.477,
+Score,0.889,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,speak to them,michael speak to them and turn back to the fire ,0.477,
+Phrase v.s. Sentence Similarity,speak,michael turn back to the fire and speak to them ,0.425,
+Score,0.889,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,michael turn back to the fire and speak to them,michael speak to them and turn back to the fire ,1.000,
+Phrase v.s. Sentence Similarity,speak to them and turn back to the fire,michael turn back to the fire and speak to them ,0.801,
+Score,0.801,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,turn back to the fire and speak to them,michael speak to them and turn back to the fire ,0.801,
+Phrase v.s. Sentence Similarity,michael speak to them and turn back to the fire,michael turn back to the fire and speak to them ,1.000,
+Score,0.801,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,turn back to the fire,michael speak to them and turn back to the fire ,0.645,
+Phrase v.s. Sentence Similarity,speak to them and turn back to the fire,michael turn back to the fire and speak to them ,0.801,
+Score,0.773,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,turn back to the fire and speak to them,michael speak to them and turn back to the fire ,0.801,
+Phrase v.s. Sentence Similarity,turn back to the fire,michael turn back to the fire and speak to them ,0.645,
+Score,0.773,1.000,
+

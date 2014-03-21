@@ -1,0 +1,420 @@
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,tactically,although they come out on top tactically they do not win the game ,0.695,
+Phrase v.s. Sentence Similarity,tactically,although they do not win the game they come out on top tactically ,0.695,
+Score,1.000,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,top,although they come out on top tactically they do not win the game ,0.281,
+Phrase v.s. Sentence Similarity,top,although they do not win the game they come out on top tactically ,0.281,
+Score,1.000,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,top tactically,although they come out on top tactically they do not win the game ,0.750,
+Phrase v.s. Sentence Similarity,top tactically,although they do not win the game they come out on top tactically ,0.750,
+Score,1.000,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,on,although they come out on top tactically they do not win the game ,0.099,
+Phrase v.s. Sentence Similarity,on,although they do not win the game they come out on top tactically ,0.099,
+Score,1.000,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,out,although they come out on top tactically they do not win the game ,0.149,
+Phrase v.s. Sentence Similarity,out,although they do not win the game they come out on top tactically ,0.149,
+Score,1.000,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,come,although they come out on top tactically they do not win the game ,0.212,
+Phrase v.s. Sentence Similarity,come,although they do not win the game they come out on top tactically ,0.212,
+Score,1.000,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,game,although they come out on top tactically they do not win the game ,0.315,
+Phrase v.s. Sentence Similarity,game,although they do not win the game they come out on top tactically ,0.315,
+Score,1.000,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,the,although they come out on top tactically they do not win the game ,0.029,
+Phrase v.s. Sentence Similarity,the,although they do not win the game they come out on top tactically ,0.029,
+Score,1.000,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,the game,although they come out on top tactically they do not win the game ,0.317,
+Phrase v.s. Sentence Similarity,the game,although they do not win the game they come out on top tactically ,0.317,
+Score,1.000,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,win,although they come out on top tactically they do not win the game ,0.373,
+Phrase v.s. Sentence Similarity,win,although they do not win the game they come out on top tactically ,0.373,
+Score,1.000,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,not,although they come out on top tactically they do not win the game ,0.114,
+Phrase v.s. Sentence Similarity,not,although they do not win the game they come out on top tactically ,0.114,
+Score,1.000,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,do,although they come out on top tactically they do not win the game ,0.171,
+Phrase v.s. Sentence Similarity,do,although they do not win the game they come out on top tactically ,0.171,
+Score,1.000,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,they,although they come out on top tactically they do not win the game ,0.125,
+Phrase v.s. Sentence Similarity,they,although they do not win the game they come out on top tactically ,0.125,
+Score,1.000,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,although,although they come out on top tactically they do not win the game ,0.252,
+Phrase v.s. Sentence Similarity,although,although they do not win the game they come out on top tactically ,0.252,
+Score,1.000,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,although they do not win the game they come out on top tactically,although they come out on top tactically they do not win the game ,1.000,
+Phrase v.s. Sentence Similarity,although they come out on top tactically they do not win the game,although they do not win the game they come out on top tactically ,1.000,
+Score,1.000,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,do not win the game they come out on top tactically,although they come out on top tactically they do not win the game ,0.968,
+Phrase v.s. Sentence Similarity,come out on top tactically they do not win the game,although they do not win the game they come out on top tactically ,0.968,
+Score,1.000,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,do not win the game they come out on top tactically,although they come out on top tactically they do not win the game ,0.968,
+Phrase v.s. Sentence Similarity,they come out on top tactically they do not win the game,although they do not win the game they come out on top tactically ,0.968,
+Score,1.000,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,they do not win the game they come out on top tactically,although they come out on top tactically they do not win the game ,0.968,
+Phrase v.s. Sentence Similarity,come out on top tactically they do not win the game,although they do not win the game they come out on top tactically ,0.968,
+Score,1.000,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,they do not win the game they come out on top tactically,although they come out on top tactically they do not win the game ,0.968,
+Phrase v.s. Sentence Similarity,they come out on top tactically they do not win the game,although they do not win the game they come out on top tactically ,0.968,
+Score,1.000,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,the game,although they come out on top tactically they do not win the game ,0.317,
+Phrase v.s. Sentence Similarity,game,although they do not win the game they come out on top tactically ,0.315,
+Score,0.996,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,game,although they come out on top tactically they do not win the game ,0.315,
+Phrase v.s. Sentence Similarity,the game,although they do not win the game they come out on top tactically ,0.317,
+Score,0.996,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,on top tactically,although they come out on top tactically they do not win the game ,0.756,
+Phrase v.s. Sentence Similarity,top tactically,although they do not win the game they come out on top tactically ,0.750,
+Score,0.991,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,win the game they come out on top tactically,although they come out on top tactically they do not win the game ,0.946,
+Phrase v.s. Sentence Similarity,come out on top tactically they do not win the game,although they do not win the game they come out on top tactically ,0.968,
+Score,0.977,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,win the game they come out on top tactically,although they come out on top tactically they do not win the game ,0.946,
+Phrase v.s. Sentence Similarity,they come out on top tactically they do not win the game,although they do not win the game they come out on top tactically ,0.968,
+Score,0.977,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,do not win the game they come out on top tactically,although they come out on top tactically they do not win the game ,0.968,
+Phrase v.s. Sentence Similarity,although they come out on top tactically they do not win the game,although they do not win the game they come out on top tactically ,1.000,
+Score,0.968,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,they do not win the game they come out on top tactically,although they come out on top tactically they do not win the game ,0.968,
+Phrase v.s. Sentence Similarity,although they come out on top tactically they do not win the game,although they do not win the game they come out on top tactically ,1.000,
+Score,0.968,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,although they do not win the game they come out on top tactically,although they come out on top tactically they do not win the game ,1.000,
+Phrase v.s. Sentence Similarity,come out on top tactically they do not win the game,although they do not win the game they come out on top tactically ,0.968,
+Score,0.968,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,although they do not win the game they come out on top tactically,although they come out on top tactically they do not win the game ,1.000,
+Phrase v.s. Sentence Similarity,they come out on top tactically they do not win the game,although they do not win the game they come out on top tactically ,0.968,
+Score,0.968,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,do not win the game they come out on top tactically,although they come out on top tactically they do not win the game ,0.968,
+Phrase v.s. Sentence Similarity,on top tactically they do not win the game,although they do not win the game they come out on top tactically ,0.932,
+Score,0.963,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,they do not win the game they come out on top tactically,although they come out on top tactically they do not win the game ,0.968,
+Phrase v.s. Sentence Similarity,on top tactically they do not win the game,although they do not win the game they come out on top tactically ,0.932,
+Score,0.963,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,do not win the game they come out on top tactically,although they come out on top tactically they do not win the game ,0.968,
+Phrase v.s. Sentence Similarity,top tactically they do not win the game,although they do not win the game they come out on top tactically ,0.927,
+Score,0.958,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,they do not win the game they come out on top tactically,although they come out on top tactically they do not win the game ,0.968,
+Phrase v.s. Sentence Similarity,top tactically they do not win the game,although they do not win the game they come out on top tactically ,0.927,
+Score,0.958,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,win the game they come out on top tactically,although they come out on top tactically they do not win the game ,0.946,
+Phrase v.s. Sentence Similarity,although they come out on top tactically they do not win the game,although they do not win the game they come out on top tactically ,1.000,
+Score,0.946,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,win the game they come out on top tactically,although they come out on top tactically they do not win the game ,0.946,
+Phrase v.s. Sentence Similarity,on top tactically they do not win the game,although they do not win the game they come out on top tactically ,0.932,
+Score,0.938,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,come out on top tactically,although they come out on top tactically they do not win the game ,0.800,
+Phrase v.s. Sentence Similarity,top tactically,although they do not win the game they come out on top tactically ,0.750,
+Score,0.938,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,although they do not win the game they come out on top tactically,although they come out on top tactically they do not win the game ,1.000,
+Phrase v.s. Sentence Similarity,on top tactically they do not win the game,although they do not win the game they come out on top tactically ,0.932,
+Score,0.932,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,win the game they come out on top tactically,although they come out on top tactically they do not win the game ,0.946,
+Phrase v.s. Sentence Similarity,top tactically they do not win the game,although they do not win the game they come out on top tactically ,0.927,
+Score,0.932,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,tactically,although they come out on top tactically they do not win the game ,0.695,
+Phrase v.s. Sentence Similarity,top tactically,although they do not win the game they come out on top tactically ,0.750,
+Score,0.927,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,top tactically,although they come out on top tactically they do not win the game ,0.750,
+Phrase v.s. Sentence Similarity,tactically,although they do not win the game they come out on top tactically ,0.695,
+Score,0.927,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,although they do not win the game they come out on top tactically,although they come out on top tactically they do not win the game ,1.000,
+Phrase v.s. Sentence Similarity,top tactically they do not win the game,although they do not win the game they come out on top tactically ,0.927,
+Score,0.927,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,they come out on top tactically,although they come out on top tactically they do not win the game ,0.809,
+Phrase v.s. Sentence Similarity,top tactically,although they do not win the game they come out on top tactically ,0.750,
+Score,0.926,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,on top tactically,although they come out on top tactically they do not win the game ,0.756,
+Phrase v.s. Sentence Similarity,tactically,although they do not win the game they come out on top tactically ,0.695,
+Score,0.919,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,the game they come out on top tactically,although they come out on top tactically they do not win the game ,0.869,
+Phrase v.s. Sentence Similarity,come out on top tactically they do not win the game,although they do not win the game they come out on top tactically ,0.968,
+Score,0.898,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,the game they come out on top tactically,although they come out on top tactically they do not win the game ,0.869,
+Phrase v.s. Sentence Similarity,they come out on top tactically they do not win the game,although they do not win the game they come out on top tactically ,0.968,
+Score,0.898,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,come out on top tactically,although they come out on top tactically they do not win the game ,0.800,
+Phrase v.s. Sentence Similarity,tactically,although they do not win the game they come out on top tactically ,0.695,
+Score,0.869,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,the game they come out on top tactically,although they come out on top tactically they do not win the game ,0.869,
+Phrase v.s. Sentence Similarity,although they come out on top tactically they do not win the game,although they do not win the game they come out on top tactically ,1.000,
+Score,0.869,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,the game they come out on top tactically,although they come out on top tactically they do not win the game ,0.869,
+Phrase v.s. Sentence Similarity,top tactically,although they do not win the game they come out on top tactically ,0.750,
+Score,0.863,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,they come out on top tactically,although they come out on top tactically they do not win the game ,0.809,
+Phrase v.s. Sentence Similarity,tactically,although they do not win the game they come out on top tactically ,0.695,
+Score,0.859,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,the game they come out on top tactically,although they come out on top tactically they do not win the game ,0.869,
+Phrase v.s. Sentence Similarity,on top tactically they do not win the game,although they do not win the game they come out on top tactically ,0.932,
+Score,0.849,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,the game they come out on top tactically,although they come out on top tactically they do not win the game ,0.869,
+Phrase v.s. Sentence Similarity,top tactically they do not win the game,although they do not win the game they come out on top tactically ,0.927,
+Score,0.842,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,they come out on top tactically,although they come out on top tactically they do not win the game ,0.809,
+Phrase v.s. Sentence Similarity,come out on top tactically they do not win the game,although they do not win the game they come out on top tactically ,0.968,
+Score,0.836,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,they come out on top tactically,although they come out on top tactically they do not win the game ,0.809,
+Phrase v.s. Sentence Similarity,they come out on top tactically they do not win the game,although they do not win the game they come out on top tactically ,0.968,
+Score,0.836,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,come out on top tactically,although they come out on top tactically they do not win the game ,0.800,
+Phrase v.s. Sentence Similarity,come out on top tactically they do not win the game,although they do not win the game they come out on top tactically ,0.968,
+Score,0.826,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,come out on top tactically,although they come out on top tactically they do not win the game ,0.800,
+Phrase v.s. Sentence Similarity,they come out on top tactically they do not win the game,although they do not win the game they come out on top tactically ,0.968,
+Score,0.826,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,on top tactically,although they come out on top tactically they do not win the game ,0.756,
+Phrase v.s. Sentence Similarity,on top tactically they do not win the game,although they do not win the game they come out on top tactically ,0.932,
+Score,0.811,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,they come out on top tactically,although they come out on top tactically they do not win the game ,0.809,
+Phrase v.s. Sentence Similarity,although they come out on top tactically they do not win the game,although they do not win the game they come out on top tactically ,1.000,
+Score,0.809,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,top tactically,although they come out on top tactically they do not win the game ,0.750,
+Phrase v.s. Sentence Similarity,top tactically they do not win the game,although they do not win the game they come out on top tactically ,0.927,
+Score,0.809,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,top tactically,although they come out on top tactically they do not win the game ,0.750,
+Phrase v.s. Sentence Similarity,on top tactically they do not win the game,although they do not win the game they come out on top tactically ,0.932,
+Score,0.804,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,on top tactically,although they come out on top tactically they do not win the game ,0.756,
+Phrase v.s. Sentence Similarity,top tactically they do not win the game,although they do not win the game they come out on top tactically ,0.927,
+Score,0.802,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,the game they come out on top tactically,although they come out on top tactically they do not win the game ,0.869,
+Phrase v.s. Sentence Similarity,tactically,although they do not win the game they come out on top tactically ,0.695,
+Score,0.800,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,come out on top tactically,although they come out on top tactically they do not win the game ,0.800,
+Phrase v.s. Sentence Similarity,although they come out on top tactically they do not win the game,although they do not win the game they come out on top tactically ,1.000,
+Score,0.800,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,win the game they come out on top tactically,although they come out on top tactically they do not win the game ,0.946,
+Phrase v.s. Sentence Similarity,top tactically,although they do not win the game they come out on top tactically ,0.750,
+Score,0.793,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,on top tactically,although they come out on top tactically they do not win the game ,0.756,
+Phrase v.s. Sentence Similarity,come out on top tactically they do not win the game,although they do not win the game they come out on top tactically ,0.968,
+Score,0.781,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,on top tactically,although they come out on top tactically they do not win the game ,0.756,
+Phrase v.s. Sentence Similarity,they come out on top tactically they do not win the game,although they do not win the game they come out on top tactically ,0.968,
+Score,0.781,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,they come out on top tactically,although they come out on top tactically they do not win the game ,0.809,
+Phrase v.s. Sentence Similarity,on top tactically they do not win the game,although they do not win the game they come out on top tactically ,0.932,
+Score,0.779,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,top tactically,although they come out on top tactically they do not win the game ,0.750,
+Phrase v.s. Sentence Similarity,come out on top tactically they do not win the game,although they do not win the game they come out on top tactically ,0.968,
+Score,0.775,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,top tactically,although they come out on top tactically they do not win the game ,0.750,
+Phrase v.s. Sentence Similarity,they come out on top tactically they do not win the game,although they do not win the game they come out on top tactically ,0.968,
+Score,0.775,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,do not win the game they come out on top tactically,although they come out on top tactically they do not win the game ,0.968,
+Phrase v.s. Sentence Similarity,top tactically,although they do not win the game they come out on top tactically ,0.750,
+Score,0.775,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,they do not win the game they come out on top tactically,although they come out on top tactically they do not win the game ,0.968,
+Phrase v.s. Sentence Similarity,top tactically,although they do not win the game they come out on top tactically ,0.750,
+Score,0.775,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,they come out on top tactically,although they come out on top tactically they do not win the game ,0.809,
+Phrase v.s. Sentence Similarity,top tactically they do not win the game,although they do not win the game they come out on top tactically ,0.927,
+Score,0.770,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,come out on top tactically,although they come out on top tactically they do not win the game ,0.800,
+Phrase v.s. Sentence Similarity,on top tactically they do not win the game,although they do not win the game they come out on top tactically ,0.932,
+Score,0.767,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,win,although they come out on top tactically they do not win the game ,0.373,
+Phrase v.s. Sentence Similarity,win the game,although they do not win the game they come out on top tactically ,0.489,
+Score,0.763,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,come out on top tactically,although they come out on top tactically they do not win the game ,0.800,
+Phrase v.s. Sentence Similarity,top tactically they do not win the game,although they do not win the game they come out on top tactically ,0.927,
+Score,0.758,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,on top tactically,although they come out on top tactically they do not win the game ,0.756,
+Phrase v.s. Sentence Similarity,although they come out on top tactically they do not win the game,although they do not win the game they come out on top tactically ,1.000,
+Score,0.756,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,tactically,although they come out on top tactically they do not win the game ,0.695,
+Phrase v.s. Sentence Similarity,top tactically they do not win the game,although they do not win the game they come out on top tactically ,0.927,
+Score,0.750,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,top tactically,although they come out on top tactically they do not win the game ,0.750,
+Phrase v.s. Sentence Similarity,although they come out on top tactically they do not win the game,although they do not win the game they come out on top tactically ,1.000,
+Score,0.750,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,although they do not win the game they come out on top tactically,although they come out on top tactically they do not win the game ,1.000,
+Phrase v.s. Sentence Similarity,top tactically,although they do not win the game they come out on top tactically ,0.750,
+Score,0.750,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,tactically,although they come out on top tactically they do not win the game ,0.695,
+Phrase v.s. Sentence Similarity,on top tactically they do not win the game,although they do not win the game they come out on top tactically ,0.932,
+Score,0.746,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,win the game they come out on top tactically,although they come out on top tactically they do not win the game ,0.946,
+Phrase v.s. Sentence Similarity,tactically,although they do not win the game they come out on top tactically ,0.695,
+Score,0.735,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,tactically,although they come out on top tactically they do not win the game ,0.695,
+Phrase v.s. Sentence Similarity,come out on top tactically they do not win the game,although they do not win the game they come out on top tactically ,0.968,
+Score,0.718,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,tactically,although they come out on top tactically they do not win the game ,0.695,
+Phrase v.s. Sentence Similarity,they come out on top tactically they do not win the game,although they do not win the game they come out on top tactically ,0.968,
+Score,0.718,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,do not win the game they come out on top tactically,although they come out on top tactically they do not win the game ,0.968,
+Phrase v.s. Sentence Similarity,tactically,although they do not win the game they come out on top tactically ,0.695,
+Score,0.718,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,they do not win the game they come out on top tactically,although they come out on top tactically they do not win the game ,0.968,
+Phrase v.s. Sentence Similarity,tactically,although they do not win the game they come out on top tactically ,0.695,
+Score,0.718,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,win,although they come out on top tactically they do not win the game ,0.373,
+Phrase v.s. Sentence Similarity,do not win the game,although they do not win the game they come out on top tactically ,0.531,
+Score,0.703,1.000,
+

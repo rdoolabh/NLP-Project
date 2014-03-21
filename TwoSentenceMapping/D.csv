@@ -1,0 +1,120 @@
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,he look disappointed but he smile,he smile but he look disappointed ,1.000,
+Phrase v.s. Sentence Similarity,he smile but he look disappointed,he look disappointed but he smile ,1.000,
+Score,1.000,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,he look disappointed but he smile,he smile but he look disappointed ,1.000,
+Phrase v.s. Sentence Similarity,smile but he look disappointed,he look disappointed but he smile ,1.000,
+Score,1.000,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,he look disappointed but he smile,he smile but he look disappointed ,1.000,
+Phrase v.s. Sentence Similarity,but he look disappointed,he look disappointed but he smile ,0.831,
+Score,0.831,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,he look disappointed but he smile,he smile but he look disappointed ,1.000,
+Phrase v.s. Sentence Similarity,he look disappointed,he look disappointed but he smile ,0.812,
+Score,0.812,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,he look disappointed but he smile,he smile but he look disappointed ,1.000,
+Phrase v.s. Sentence Similarity,look disappointed,he look disappointed but he smile ,0.802,
+Score,0.802,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,he look disappointed but he smile,he smile but he look disappointed ,1.000,
+Phrase v.s. Sentence Similarity,disappointed,he look disappointed but he smile ,0.716,
+Score,0.716,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,he,he smile but he look disappointed ,0.129,
+Phrase v.s. Sentence Similarity,he,he look disappointed but he smile ,0.129,
+Score,1.000,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,look disappointed but he smile,he smile but he look disappointed ,1.000,
+Phrase v.s. Sentence Similarity,he smile but he look disappointed,he look disappointed but he smile ,1.000,
+Score,1.000,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,look disappointed but he smile,he smile but he look disappointed ,1.000,
+Phrase v.s. Sentence Similarity,smile but he look disappointed,he look disappointed but he smile ,1.000,
+Score,1.000,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,look disappointed but he smile,he smile but he look disappointed ,1.000,
+Phrase v.s. Sentence Similarity,but he look disappointed,he look disappointed but he smile ,0.831,
+Score,0.831,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,look disappointed but he smile,he smile but he look disappointed ,1.000,
+Phrase v.s. Sentence Similarity,he look disappointed,he look disappointed but he smile ,0.812,
+Score,0.812,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,look disappointed but he smile,he smile but he look disappointed ,1.000,
+Phrase v.s. Sentence Similarity,look disappointed,he look disappointed but he smile ,0.802,
+Score,0.802,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,look disappointed but he smile,he smile but he look disappointed ,1.000,
+Phrase v.s. Sentence Similarity,disappointed,he look disappointed but he smile ,0.716,
+Score,0.716,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,look,he smile but he look disappointed ,0.360,
+Phrase v.s. Sentence Similarity,look,he look disappointed but he smile ,0.360,
+Score,1.000,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,disappointed,he smile but he look disappointed ,0.716,
+Phrase v.s. Sentence Similarity,he smile but he look disappointed,he look disappointed but he smile ,1.000,
+Score,0.716,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,disappointed,he smile but he look disappointed ,0.716,
+Phrase v.s. Sentence Similarity,smile but he look disappointed,he look disappointed but he smile ,1.000,
+Score,0.716,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,disappointed,he smile but he look disappointed ,0.716,
+Phrase v.s. Sentence Similarity,but he look disappointed,he look disappointed but he smile ,0.831,
+Score,0.862,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,disappointed,he smile but he look disappointed ,0.716,
+Phrase v.s. Sentence Similarity,he look disappointed,he look disappointed but he smile ,0.812,
+Score,0.882,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,disappointed,he smile but he look disappointed ,0.716,
+Phrase v.s. Sentence Similarity,look disappointed,he look disappointed but he smile ,0.802,
+Score,0.893,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,disappointed,he smile but he look disappointed ,0.716,
+Phrase v.s. Sentence Similarity,disappointed,he look disappointed but he smile ,0.716,
+Score,1.000,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,but he smile,he smile but he look disappointed ,0.597,
+Phrase v.s. Sentence Similarity,smile,he look disappointed but he smile ,0.556,
+Score,0.931,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,but,he smile but he look disappointed ,0.175,
+Phrase v.s. Sentence Similarity,but,he look disappointed but he smile ,0.175,
+Score,1.000,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,he smile,he smile but he look disappointed ,0.571,
+Phrase v.s. Sentence Similarity,smile,he look disappointed but he smile ,0.556,
+Score,0.974,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,smile,he smile but he look disappointed ,0.556,
+Phrase v.s. Sentence Similarity,smile,he look disappointed but he smile ,0.556,
+Score,1.000,1.000,
+

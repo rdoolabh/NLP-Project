@@ -1,0 +1,260 @@
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,sandra and tom are very different but they are good friend,even though sandra and tom are very different they are good friend ,0.947,
+Phrase v.s. Sentence Similarity,even though sandra and tom are very different they are good friend,sandra and tom are very different but they are good friend ,0.947,
+Score,0.947,0.947,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,sandra and tom are very different but they are good friend,even though sandra and tom are very different they are good friend ,0.947,
+Phrase v.s. Sentence Similarity,sandra and tom are very different they are good friend,sandra and tom are very different but they are good friend ,0.992,
+Score,0.992,0.947,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,sandra and tom are very different but they are good friend,even though sandra and tom are very different they are good friend ,0.947,
+Phrase v.s. Sentence Similarity,sandra and tom,sandra and tom are very different but they are good friend ,0.863,
+Score,0.863,0.947,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,sandra and tom are very different but they are good friend,even though sandra and tom are very different they are good friend ,0.947,
+Phrase v.s. Sentence Similarity,sandra,sandra and tom are very different but they are good friend ,0.733,
+Score,0.733,0.947,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,sandra and tom,even though sandra and tom are very different they are good friend ,0.830,
+Phrase v.s. Sentence Similarity,even though sandra and tom are very different they are good friend,sandra and tom are very different but they are good friend ,0.947,
+Score,0.830,0.947,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,sandra and tom,even though sandra and tom are very different they are good friend ,0.830,
+Phrase v.s. Sentence Similarity,sandra and tom are very different they are good friend,sandra and tom are very different but they are good friend ,0.992,
+Score,0.870,0.947,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,sandra and tom,even though sandra and tom are very different they are good friend ,0.830,
+Phrase v.s. Sentence Similarity,sandra and tom,sandra and tom are very different but they are good friend ,0.863,
+Score,1.000,0.947,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,sandra and tom,even though sandra and tom are very different they are good friend ,0.830,
+Phrase v.s. Sentence Similarity,sandra,sandra and tom are very different but they are good friend ,0.733,
+Score,0.885,0.947,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,sandra,even though sandra and tom are very different they are good friend ,0.705,
+Phrase v.s. Sentence Similarity,even though sandra and tom are very different they are good friend,sandra and tom are very different but they are good friend ,0.947,
+Score,0.705,0.947,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,sandra,even though sandra and tom are very different they are good friend ,0.705,
+Phrase v.s. Sentence Similarity,sandra and tom are very different they are good friend,sandra and tom are very different but they are good friend ,0.992,
+Score,0.738,0.947,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,sandra,even though sandra and tom are very different they are good friend ,0.705,
+Phrase v.s. Sentence Similarity,sandra and tom,sandra and tom are very different but they are good friend ,0.863,
+Score,0.885,0.947,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,sandra,even though sandra and tom are very different they are good friend ,0.705,
+Phrase v.s. Sentence Similarity,sandra,sandra and tom are very different but they are good friend ,0.733,
+Score,1.000,0.947,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,and,even though sandra and tom are very different they are good friend ,0.051,
+Phrase v.s. Sentence Similarity,and,sandra and tom are very different but they are good friend ,0.053,
+Score,1.000,0.947,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,tom,even though sandra and tom are very different they are good friend ,0.438,
+Phrase v.s. Sentence Similarity,tom,sandra and tom are very different but they are good friend ,0.456,
+Score,1.000,0.947,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,are very different but they are good friend,even though sandra and tom are very different they are good friend ,0.572,
+Phrase v.s. Sentence Similarity,are very different they are good friend,sandra and tom are very different but they are good friend ,0.609,
+Score,0.976,0.947,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,are very different but they are good friend,even though sandra and tom are very different they are good friend ,0.572,
+Phrase v.s. Sentence Similarity,very different they are good friend,sandra and tom are very different but they are good friend ,0.609,
+Score,0.976,0.947,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,are very different but they are good friend,even though sandra and tom are very different they are good friend ,0.572,
+Phrase v.s. Sentence Similarity,they are good friend,sandra and tom are very different but they are good friend ,0.507,
+Score,0.763,0.947,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,are very different but they are good friend,even though sandra and tom are very different they are good friend ,0.572,
+Phrase v.s. Sentence Similarity,are good friend,sandra and tom are very different but they are good friend ,0.490,
+Score,0.726,0.947,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,are,even though sandra and tom are very different they are good friend ,0.118,
+Phrase v.s. Sentence Similarity,are,sandra and tom are very different but they are good friend ,0.123,
+Score,1.000,0.947,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,very different,even though sandra and tom are very different they are good friend ,0.328,
+Phrase v.s. Sentence Similarity,different,sandra and tom are very different but they are good friend ,0.268,
+Score,0.787,0.947,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,very,even though sandra and tom are very different they are good friend ,0.202,
+Phrase v.s. Sentence Similarity,very,sandra and tom are very different but they are good friend ,0.210,
+Score,1.000,0.947,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,different,even though sandra and tom are very different they are good friend ,0.258,
+Phrase v.s. Sentence Similarity,different,sandra and tom are very different but they are good friend ,0.268,
+Score,1.000,0.947,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,but they are good friend,even though sandra and tom are very different they are good friend ,0.470,
+Phrase v.s. Sentence Similarity,are very different they are good friend,sandra and tom are very different but they are good friend ,0.609,
+Score,0.752,0.947,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,but they are good friend,even though sandra and tom are very different they are good friend ,0.470,
+Phrase v.s. Sentence Similarity,very different they are good friend,sandra and tom are very different but they are good friend ,0.609,
+Score,0.752,0.947,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,but they are good friend,even though sandra and tom are very different they are good friend ,0.470,
+Phrase v.s. Sentence Similarity,they are good friend,sandra and tom are very different but they are good friend ,0.507,
+Score,0.961,0.947,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,but they are good friend,even though sandra and tom are very different they are good friend ,0.470,
+Phrase v.s. Sentence Similarity,are good friend,sandra and tom are very different but they are good friend ,0.490,
+Score,0.915,0.947,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,but they are good friend,even though sandra and tom are very different they are good friend ,0.470,
+Phrase v.s. Sentence Similarity,good friend,sandra and tom are very different but they are good friend ,0.475,
+Score,0.872,0.947,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,but they are good friend,even though sandra and tom are very different they are good friend ,0.470,
+Phrase v.s. Sentence Similarity,friend,sandra and tom are very different but they are good friend ,0.429,
+Score,0.734,0.947,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,they are good friend,even though sandra and tom are very different they are good friend ,0.488,
+Phrase v.s. Sentence Similarity,are very different they are good friend,sandra and tom are very different but they are good friend ,0.609,
+Score,0.782,0.947,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,they are good friend,even though sandra and tom are very different they are good friend ,0.488,
+Phrase v.s. Sentence Similarity,very different they are good friend,sandra and tom are very different but they are good friend ,0.609,
+Score,0.782,0.947,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,they are good friend,even though sandra and tom are very different they are good friend ,0.488,
+Phrase v.s. Sentence Similarity,they are good friend,sandra and tom are very different but they are good friend ,0.507,
+Score,1.000,0.947,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,they are good friend,even though sandra and tom are very different they are good friend ,0.488,
+Phrase v.s. Sentence Similarity,are good friend,sandra and tom are very different but they are good friend ,0.490,
+Score,0.952,0.947,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,they are good friend,even though sandra and tom are very different they are good friend ,0.488,
+Phrase v.s. Sentence Similarity,good friend,sandra and tom are very different but they are good friend ,0.475,
+Score,0.907,0.947,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,they are good friend,even though sandra and tom are very different they are good friend ,0.488,
+Phrase v.s. Sentence Similarity,friend,sandra and tom are very different but they are good friend ,0.429,
+Score,0.764,0.947,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,they,even though sandra and tom are very different they are good friend ,0.126,
+Phrase v.s. Sentence Similarity,they,sandra and tom are very different but they are good friend ,0.131,
+Score,1.000,0.947,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,are good friend,even though sandra and tom are very different they are good friend ,0.471,
+Phrase v.s. Sentence Similarity,are very different they are good friend,sandra and tom are very different but they are good friend ,0.609,
+Score,0.744,0.947,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,are good friend,even though sandra and tom are very different they are good friend ,0.471,
+Phrase v.s. Sentence Similarity,very different they are good friend,sandra and tom are very different but they are good friend ,0.609,
+Score,0.744,0.947,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,are good friend,even though sandra and tom are very different they are good friend ,0.471,
+Phrase v.s. Sentence Similarity,they are good friend,sandra and tom are very different but they are good friend ,0.507,
+Score,0.952,0.947,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,are good friend,even though sandra and tom are very different they are good friend ,0.471,
+Phrase v.s. Sentence Similarity,are good friend,sandra and tom are very different but they are good friend ,0.490,
+Score,1.000,0.947,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,are good friend,even though sandra and tom are very different they are good friend ,0.471,
+Phrase v.s. Sentence Similarity,good friend,sandra and tom are very different but they are good friend ,0.475,
+Score,0.954,0.947,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,are good friend,even though sandra and tom are very different they are good friend ,0.471,
+Phrase v.s. Sentence Similarity,friend,sandra and tom are very different but they are good friend ,0.429,
+Score,0.803,0.947,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,good friend,even though sandra and tom are very different they are good friend ,0.457,
+Phrase v.s. Sentence Similarity,are very different they are good friend,sandra and tom are very different but they are good friend ,0.609,
+Score,0.710,0.947,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,good friend,even though sandra and tom are very different they are good friend ,0.457,
+Phrase v.s. Sentence Similarity,very different they are good friend,sandra and tom are very different but they are good friend ,0.609,
+Score,0.710,0.947,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,good friend,even though sandra and tom are very different they are good friend ,0.457,
+Phrase v.s. Sentence Similarity,they are good friend,sandra and tom are very different but they are good friend ,0.507,
+Score,0.907,0.947,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,good friend,even though sandra and tom are very different they are good friend ,0.457,
+Phrase v.s. Sentence Similarity,are good friend,sandra and tom are very different but they are good friend ,0.490,
+Score,0.954,0.947,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,good friend,even though sandra and tom are very different they are good friend ,0.457,
+Phrase v.s. Sentence Similarity,good friend,sandra and tom are very different but they are good friend ,0.475,
+Score,1.000,0.947,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,good friend,even though sandra and tom are very different they are good friend ,0.457,
+Phrase v.s. Sentence Similarity,friend,sandra and tom are very different but they are good friend ,0.429,
+Score,0.842,0.947,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,good,even though sandra and tom are very different they are good friend ,0.201,
+Phrase v.s. Sentence Similarity,good,sandra and tom are very different but they are good friend ,0.209,
+Score,1.000,0.947,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,friend,even though sandra and tom are very different they are good friend ,0.412,
+Phrase v.s. Sentence Similarity,they are good friend,sandra and tom are very different but they are good friend ,0.507,
+Score,0.764,0.947,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,friend,even though sandra and tom are very different they are good friend ,0.412,
+Phrase v.s. Sentence Similarity,are good friend,sandra and tom are very different but they are good friend ,0.490,
+Score,0.803,0.947,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,friend,even though sandra and tom are very different they are good friend ,0.412,
+Phrase v.s. Sentence Similarity,good friend,sandra and tom are very different but they are good friend ,0.475,
+Score,0.842,0.947,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,friend,even though sandra and tom are very different they are good friend ,0.412,
+Phrase v.s. Sentence Similarity,friend,sandra and tom are very different but they are good friend ,0.429,
+Score,1.000,0.947,
+

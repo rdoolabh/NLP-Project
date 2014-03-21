@@ -1,0 +1,120 @@
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,peter smile when mary take a picture,mary take a picture when peter smile ,1.000,
+Phrase v.s. Sentence Similarity,mary take a picture when peter smile,peter smile when mary take a picture ,1.000,
+Score,1.000,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,peter smile when mary take a picture,mary take a picture when peter smile ,1.000,
+Phrase v.s. Sentence Similarity,take a picture when peter smile,peter smile when mary take a picture ,0.944,
+Score,0.944,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,peter smile when mary take a picture,mary take a picture when peter smile ,1.000,
+Phrase v.s. Sentence Similarity,when peter smile,peter smile when mary take a picture ,0.831,
+Score,0.831,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,peter smile when mary take a picture,mary take a picture when peter smile ,1.000,
+Phrase v.s. Sentence Similarity,peter smile,peter smile when mary take a picture ,0.809,
+Score,0.809,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,peter,mary take a picture when peter smile ,0.649,
+Phrase v.s. Sentence Similarity,when peter smile,peter smile when mary take a picture ,0.831,
+Score,0.715,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,peter,mary take a picture when peter smile ,0.649,
+Phrase v.s. Sentence Similarity,peter smile,peter smile when mary take a picture ,0.809,
+Score,0.739,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,peter,mary take a picture when peter smile ,0.649,
+Phrase v.s. Sentence Similarity,peter,peter smile when mary take a picture ,0.649,
+Score,1.000,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,smile when mary take a picture,mary take a picture when peter smile ,0.909,
+Phrase v.s. Sentence Similarity,mary take a picture when peter smile,peter smile when mary take a picture ,1.000,
+Score,0.909,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,smile when mary take a picture,mary take a picture when peter smile ,0.909,
+Phrase v.s. Sentence Similarity,take a picture when peter smile,peter smile when mary take a picture ,0.944,
+Score,0.814,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,smile,mary take a picture when peter smile ,0.487,
+Phrase v.s. Sentence Similarity,smile,peter smile when mary take a picture ,0.487,
+Score,1.000,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,when mary take a picture,mary take a picture when peter smile ,0.768,
+Phrase v.s. Sentence Similarity,mary take a picture when peter smile,peter smile when mary take a picture ,1.000,
+Score,0.768,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,when mary take a picture,mary take a picture when peter smile ,0.768,
+Phrase v.s. Sentence Similarity,mary,peter smile when mary take a picture ,0.608,
+Score,0.712,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,when,mary take a picture when peter smile ,0.191,
+Phrase v.s. Sentence Similarity,when,peter smile when mary take a picture ,0.191,
+Score,1.000,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,mary take a picture,mary take a picture when peter smile ,0.744,
+Phrase v.s. Sentence Similarity,mary take a picture when peter smile,peter smile when mary take a picture ,1.000,
+Score,0.744,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,mary take a picture,mary take a picture when peter smile ,0.744,
+Phrase v.s. Sentence Similarity,mary,peter smile when mary take a picture ,0.608,
+Score,0.741,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,mary,mary take a picture when peter smile ,0.608,
+Phrase v.s. Sentence Similarity,mary,peter smile when mary take a picture ,0.608,
+Score,1.000,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,take a picture,mary take a picture when peter smile ,0.584,
+Phrase v.s. Sentence Similarity,a picture,peter smile when mary take a picture ,0.515,
+Score,0.816,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,take a picture,mary take a picture when peter smile ,0.584,
+Phrase v.s. Sentence Similarity,picture,peter smile when mary take a picture ,0.510,
+Score,0.801,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,take,mary take a picture when peter smile ,0.283,
+Phrase v.s. Sentence Similarity,take,peter smile when mary take a picture ,0.283,
+Score,1.000,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,a picture,mary take a picture when peter smile ,0.515,
+Phrase v.s. Sentence Similarity,a picture,peter smile when mary take a picture ,0.515,
+Score,1.000,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,a picture,mary take a picture when peter smile ,0.515,
+Phrase v.s. Sentence Similarity,picture,peter smile when mary take a picture ,0.510,
+Score,0.982,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,a,mary take a picture when peter smile ,0.075,
+Phrase v.s. Sentence Similarity,a,peter smile when mary take a picture ,0.075,
+Score,1.000,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,picture,mary take a picture when peter smile ,0.510,
+Phrase v.s. Sentence Similarity,a picture,peter smile when mary take a picture ,0.515,
+Score,0.982,1.000,
+
+ ,Phrase Similarity,Sentence Similarity,Score
+Phrase v.s. Sentence Similarity,picture,mary take a picture when peter smile ,0.510,
+Phrase v.s. Sentence Similarity,picture,peter smile when mary take a picture ,0.510,
+Score,1.000,1.000,
+
