@@ -1,6 +1,9 @@
 #################
 ## Eclipse
 #################
+*.gif
+*.xml
+*.html
 *.class
 *.pydevproject
 .project
